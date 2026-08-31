@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N3R1-70 | Opere & Protocolli / Works & Protocols</title>
-    
-    <!-- SEO & Open Graph -->
     <meta name="description" content="Sito ufficiale di N3R1-70 (Neri Polvani). Sistemi di analisi, saggi e protocolli di logica.">
-    <meta property="og:title" content="N3R1-70 | Opere & Protocolli">
-    <meta property="og:description" content="Trasformare la logica in segno. Hub ufficiale delle pubblicazioni d'autore.">
-    <meta property="og:url" content="https://n3r1-70.online">
-    <meta property="og:type" content="website">
-
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background-color: #090d16; color: #f8fafc; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
@@ -23,8 +16,17 @@
     <div>
         <!-- Header / Nav -->
         <header class="w-full border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
-            <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-                <span class="text-xl font-bold tracking-widest text-emerald-400">N3R1-70</span>
+            <div class="max-w-5xl mx-auto px-6 py-3 flex justify-between items-center">
+                
+                <!-- Brand Logo (Logo Immagine + Testo) -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="relative w-11 h-11 rounded-full overflow-hidden border-2 border-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.5)] group-hover:shadow-[0_0_18px_rgba(16,185,129,0.8)] transition">
+                        <img src="img/logo.jpg" alt="N3R1-70 Logo" class="w-full h-full object-cover">
+                    </div>
+                    <span class="text-xl font-bold tracking-widest text-slate-100 group-hover:text-emerald-400 transition">
+                        N3R1<span class="text-emerald-400">-70</span>
+                    </span>
+                </a>
                 
                 <div class="flex items-center gap-6">
                     <nav class="space-x-4 md:space-x-6 text-xs md:text-sm text-slate-400">
@@ -42,7 +44,6 @@
                         </a>
                     </nav>
 
-                    <!-- Language Switcher Button -->
                     <button id="lang-toggle" onclick="toggleLanguage()" class="border border-emerald-500/40 bg-emerald-500/10 text-emerald-400 text-xs font-bold px-2.5 py-1 rounded hover:bg-emerald-500/20 transition">
                         EN
                     </button>
@@ -52,22 +53,31 @@
 
         <!-- Hero Section -->
         <section class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
-            <p class="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
-                <span class="lang-it">// SISTEMA DI PENSIERO & LOGICA</span>
-                <span class="lang-en">// SYSTEM OF THOUGHT & LOGIC</span>
-            </p>
-            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight text-slate-100">
-                <span class="lang-it">Trasformare la logica in segno.</span>
-                <span class="lang-en">Transforming logic into signs.</span>
-            </h1>
-            <p class="text-slate-400 text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-                <span class="lang-it">Spazio ufficiale delle pubblicazioni, dei vettori analitici e dei protocolli firmati N3R1-70 (Neri Polvani).</span>
-                <span class="lang-en">Official space for publications, analytical vectors, and protocols by N3R1-70 (Neri Polvani).</span>
-            </p>
-            <a href="#libri" class="inline-block bg-emerald-500 text-slate-950 font-bold px-6 py-3 rounded text-sm hover:bg-emerald-400 transition">
-                <span class="lang-it">ESPLORA LE OPERE &rarr;</span>
-                <span class="lang-en">EXPLORE WORKS &rarr;</span>
-            </a>
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="flex-1">
+                    <p class="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
+                        <span class="lang-it">// SISTEMA DI PENSIERO & LOGICA</span>
+                        <span class="lang-en">// SYSTEM OF THOUGHT & LOGIC</span>
+                    </p>
+                    <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight text-slate-100">
+                        <span class="lang-it">Trasformare la logica in segno.</span>
+                        <span class="lang-en">Transforming logic into signs.</span>
+                    </h1>
+                    <p class="text-slate-400 text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
+                        <span class="lang-it">Spazio ufficiale delle pubblicazioni, dei vettori analitici e dei protocolli firmati N3R1-70 (Neri Polvani).</span>
+                        <span class="lang-en">Official space for publications, analytical vectors, and protocols by N3R1-70 (Neri Polvani).</span>
+                    </p>
+                    <a href="#libri" class="inline-block bg-emerald-500 text-slate-950 font-bold px-6 py-3 rounded text-sm hover:bg-emerald-400 transition">
+                        <span class="lang-it">ESPLORA LE OPERE &rarr;</span>
+                        <span class="lang-en">EXPLORE WORKS &rarr;</span>
+                    </a>
+                </div>
+                
+                <!-- Hero Logo Frame -->
+                <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-emerald-500/80 shadow-[0_0_30px_rgba(16,185,129,0.3)] shrink-0">
+                    <img src="img/logo.jpg" alt="N3R1-70 Hero Logo" class="w-full h-full object-cover">
+                </div>
+            </div>
         </section>
 
         <!-- Grid Libri -->
@@ -79,8 +89,6 @@
             </h2>
             
             <div class="grid md:grid-cols-3 gap-8">
-                
-                <!-- Scheda Libro 1 -->
                 <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
                     <div>
                         <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
@@ -103,7 +111,6 @@
                     </a>
                 </div>
 
-                <!-- Scheda Libro 2 -->
                 <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
                     <div>
                         <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
@@ -126,7 +133,6 @@
                     </a>
                 </div>
 
-                <!-- Scheda Libro 3 -->
                 <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
                     <div>
                         <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
@@ -148,7 +154,6 @@
                         <span class="lang-en">Buy on Amazon &rarr;</span>
                     </a>
                 </div>
-
             </div>
         </section>
 
@@ -161,26 +166,14 @@
             </h2>
             <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
                 <div class="lang-it space-y-4">
-                    <p>
-                        Sono <strong class="text-slate-200">Neri Polvani</strong>, autore del progetto e del marchio di scrittura <strong class="text-emerald-400">N3R1-70</strong>.
-                    </p>
-                    <p>
-                        Il mio lavoro si muove all'intersezione tra analisi rigorosa, architettura della logica e narrazione concettuale. Attraverso le mie pubblicazioni, esploro le strutture sottostanti dei sistemi umani, giuridici e tecnologici.
-                    </p>
-                    <p>
-                        Oltre alla produzione editoriale, gestisco iniziative indipendenti tra cui il progetto di attivismo e analisi giuridica <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.
-                    </p>
+                    <p>Sono <strong class="text-slate-200">Neri Polvani</strong>, autore del progetto e del marchio di scrittura <strong class="text-emerald-400">N3R1-70</strong>.</p>
+                    <p>Il mio lavoro si muove all'intersezione tra analisi rigorosa, architettura della logica e narrazione concettuale. Attraverso le mie pubblicazioni, esploro le strutture sottostanti dei sistemi umani, giuridici e tecnologici.</p>
+                    <p>Oltre alla produzione editoriale, gestisco iniziative indipendenti tra cui il progetto di attivismo e analisi giuridica <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.</p>
                 </div>
                 <div class="lang-en space-y-4">
-                    <p>
-                        I am <strong class="text-slate-200">Neri Polvani</strong>, author behind the writing project and brand <strong class="text-emerald-400">N3R1-70</strong>.
-                    </p>
-                    <p>
-                        My work lies at the intersection of rigorous analysis, thought architecture, and conceptual storytelling. Through my publications, I examine the underlying structures of human, legal, and technological systems.
-                    </p>
-                    <p>
-                        Alongside literary publications, I run independent initiatives including the legal analysis and activism project <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.
-                    </p>
+                    <p>I am <strong class="text-slate-200">Neri Polvani</strong>, author behind the writing project and brand <strong class="text-emerald-400">N3R1-70</strong>.</p>
+                    <p>My work lies at the intersection of rigorous analysis, thought architecture, and conceptual storytelling. Through my publications, I examine the underlying structures of human, legal, and technological systems.</p>
+                    <p>Alongside literary publications, I run independent initiatives including the legal analysis and activism project <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.</p>
                 </div>
             </div>
         </section>
@@ -194,20 +187,12 @@
             </h2>
             <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
                 <div class="lang-it space-y-4">
-                    <p>
-                        <strong class="text-slate-200">N3R1-70</strong> è un sistema di analisi e scrittura indipendente.
-                    </p>
-                    <p>
-                        Ogni pubblicazione risponde a una logica di scomposizione della realtà, dove la scrittura diventa uno strumento tecnico per tracciare segni chiari nel disordine informativo.
-                    </p>
+                    <p><strong class="text-slate-200">N3R1-70</strong> è un sistema di analisi e scrittura indipendente.</p>
+                    <p>Ogni pubblicazione risponde a una logica di scomposizione della realtà, dove la scrittura diventa uno strumento tecnico per tracciare segni chiari nel disordine informativo.</p>
                 </div>
                 <div class="lang-en space-y-4">
-                    <p>
-                        <strong class="text-slate-200">N3R1-70</strong> is an independent system of analysis and writing.
-                    </p>
-                    <p>
-                        Each publication responds to a logic of deconstructing reality, where writing becomes a technical tool to etch clear signs within information chaos.
-                    </p>
+                    <p><strong class="text-slate-200">N3R1-70</strong> is an independent system of analysis and writing.</p>
+                    <p>Each publication responds to a logic of deconstructing reality, where writing becomes a technical tool to etch clear signs within information chaos.</p>
                 </div>
             </div>
         </section>
@@ -219,7 +204,6 @@
             <div class="text-xs text-slate-500">
                 <p>&copy; 2026 N3R1-70. n3r1-70.online</p>
             </div>
-            
             <div class="flex items-center gap-3 text-xs border border-slate-800 bg-slate-900/50 px-4 py-2 rounded">
                 <span class="text-slate-500">PROJECT NETWORK:</span>
                 <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold transition flex items-center gap-1">
@@ -229,12 +213,10 @@
         </div>
     </footer>
 
-    <!-- JavaScript Language Switcher -->
     <script>
         let currentLang = 'it';
         function toggleLanguage() {
             currentLang = currentLang === 'it' ? 'en' : 'it';
-            
             const itEls = document.querySelectorAll('.lang-it');
             const enEls = document.querySelectorAll('.lang-en');
             const btn = document.getElementById('lang-toggle');
@@ -250,6 +232,5 @@
             }
         }
     </script>
-
 </body>
 </html>
