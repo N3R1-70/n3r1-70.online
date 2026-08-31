@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N3R1-70 | Opere & Protocolli / Works & Protocols</title>
+    
+    <!-- SEO & Open Graph -->
+    <meta name="description" content="Sito ufficiale di N3R1-70 (Neri Polvani). Sistemi di analisi, saggi e protocolli di logica.">
+    <meta property="og:title" content="N3R1-70 | Opere & Protocolli">
+    <meta property="og:description" content="Trasformare la logica in segno. Hub ufficiale delle pubblicazioni d'autore.">
+    <meta property="og:url" content="https://n3r1-70.online">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #090d16; color: #f8fafc; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+        .lang-en { display: none; }
+    </style>
+</head>
+<body class="antialiased selection:bg-emerald-500 selection:text-black min-h-screen flex flex-col justify-between">
+
+    <div>
+        <!-- Header / Nav -->
+        <header class="w-full border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+            <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+                <span class="text-xl font-bold tracking-widest text-emerald-400">N3R1-70</span>
+                
+                <div class="flex items-center gap-6">
+                    <nav class="space-x-4 md:space-x-6 text-xs md:text-sm text-slate-400">
+                        <a href="#libri" class="hover:text-emerald-400 transition">
+                            <span class="lang-it">// OPERE</span>
+                            <span class="lang-en">// WORKS</span>
+                        </a>
+                        <a href="#chi-sono" class="hover:text-emerald-400 transition">
+                            <span class="lang-it">// CHI SONO</span>
+                            <span class="lang-en">// ABOUT ME</span>
+                        </a>
+                        <a href="#autore" class="hover:text-emerald-400 transition">
+                            <span class="lang-it">// MANIFESTO</span>
+                            <span class="lang-en">// MANIFESTO</span>
+                        </a>
+                    </nav>
+
+                    <!-- Language Switcher Button -->
+                    <button id="lang-toggle" onclick="toggleLanguage()" class="border border-emerald-500/40 bg-emerald-500/10 text-emerald-400 text-xs font-bold px-2.5 py-1 rounded hover:bg-emerald-500/20 transition">
+                        EN
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
+            <p class="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
+                <span class="lang-it">// SISTEMA DI PENSIERO & LOGICA</span>
+                <span class="lang-en">// SYSTEM OF THOUGHT & LOGIC</span>
+            </p>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight text-slate-100">
+                <span class="lang-it">Trasformare la logica in segno.</span>
+                <span class="lang-en">Transforming logic into signs.</span>
+            </h1>
+            <p class="text-slate-400 text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
+                <span class="lang-it">Spazio ufficiale delle pubblicazioni, dei vettori analitici e dei protocolli firmati N3R1-70 (Neri Polvani).</span>
+                <span class="lang-en">Official space for publications, analytical vectors, and protocols by N3R1-70 (Neri Polvani).</span>
+            </p>
+            <a href="#libri" class="inline-block bg-emerald-500 text-slate-950 font-bold px-6 py-3 rounded text-sm hover:bg-emerald-400 transition">
+                <span class="lang-it">ESPLORA LE OPERE &rarr;</span>
+                <span class="lang-en">EXPLORE WORKS &rarr;</span>
+            </a>
+        </section>
+
+        <!-- Grid Libri -->
+        <section id="libri" class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
+            <h2 class="text-xl font-bold mb-12 text-slate-200 tracking-wide flex items-center gap-2">
+                <span class="text-emerald-400">#</span> 
+                <span class="lang-it">LIBRI PUBBLICATI</span>
+                <span class="lang-en">PUBLISHED BOOKS</span>
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Scheda Libro 1 -->
+                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
+                    <div>
+                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
+                            <img src="img/kernel-70.jpg" alt="Il Tecnico di Logica" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
+                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: ASIN B0HH6PDQVP]</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-100 mb-1">IL TECNICO DI LOGICA</h3>
+                        <p class="text-xs text-emerald-400 mb-4">
+                            <span class="lang-it">// Saggio / Analisi Logica</span>
+                            <span class="lang-en">// Essay / Logical Analysis</span>
+                        </p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            <span class="lang-it">Un'esplorazione rigorosa delle strutture logiche, dei sistemi d'analisi e dell'architettura del pensiero applicata alla complessità contemporanea.</span>
+                            <span class="lang-en">A rigorous exploration of logical structures, analytical systems, and thought architecture applied to contemporary complexity.</span>
+                        </p>
+                    </div>
+                    <a href="https://www.amazon.it/dp/B0HH6PDQVP" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
+                        <span class="lang-it">Acquista su Amazon &rarr;</span>
+                        <span class="lang-en">Buy on Amazon &rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Scheda Libro 2 -->
+                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
+                    <div>
+                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
+                            <img src="img/libro-2.jpg" alt="Opera 2" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
+                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: ASIN B0H63BHDSG]</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-100 mb-1">OPERA II</h3>
+                        <p class="text-xs text-emerald-400 mb-4">
+                            <span class="lang-it">// Pubblicazione D'Autore</span>
+                            <span class="lang-en">// Author Publication</span>
+                        </p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            <span class="lang-it">Vettori narrativi e analitici integrati all'interno dell'ecosistema di scrittura firmato N3R1-70.</span>
+                            <span class="lang-en">Narrative and analytical vectors integrated into the writing ecosystem signed by N3R1-70.</span>
+                        </p>
+                    </div>
+                    <a href="https://www.amazon.it/dp/B0H63BHDSG" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
+                        <span class="lang-it">Acquista su Amazon &rarr;</span>
+                        <span class="lang-en">Buy on Amazon &rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Scheda Libro 3 -->
+                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
+                    <div>
+                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
+                            <img src="img/libro-3.jpg" alt="Opera 3" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
+                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: ASIN B0GLJW24C5]</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-100 mb-1">OPERA III</h3>
+                        <p class="text-xs text-emerald-400 mb-4">
+                            <span class="lang-it">// Pubblicazione D'Autore</span>
+                            <span class="lang-en">// Author Publication</span>
+                        </p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            <span class="lang-it">Scomposizione della realtà e tracciamento di strutture concettuali attraverso una prosa sintetica e diretta.</span>
+                            <span class="lang-en">Deconstruction of reality and mapping of conceptual structures through synthetic and direct prose.</span>
+                        </p>
+                    </div>
+                    <a href="https://www.amazon.it/dp/B0GLJW24C5" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
+                        <span class="lang-it">Acquista su Amazon &rarr;</span>
+                        <span class="lang-en">Buy on Amazon &rarr;</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section: Chi Sono -->
+        <section id="chi-sono" class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
+            <h2 class="text-xl font-bold mb-6 text-slate-200 tracking-wide flex items-center gap-2">
+                <span class="text-emerald-400">#</span> 
+                <span class="lang-it">CHI SONO</span>
+                <span class="lang-en">ABOUT ME</span>
+            </h2>
+            <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
+                <div class="lang-it space-y-4">
+                    <p>
+                        Sono <strong class="text-slate-200">Neri Polvani</strong>, autore del progetto e del marchio di scrittura <strong class="text-emerald-400">N3R1-70</strong>.
+                    </p>
+                    <p>
+                        Il mio lavoro si muove all'intersezione tra analisi rigorosa, architettura della logica e narrazione concettuale. Attraverso le mie pubblicazioni, esploro le strutture sottostanti dei sistemi umani, giuridici e tecnologici.
+                    </p>
+                    <p>
+                        Oltre alla produzione editoriale, gestisco iniziative indipendenti tra cui il progetto di attivismo e analisi giuridica <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.
+                    </p>
+                </div>
+                <div class="lang-en space-y-4">
+                    <p>
+                        I am <strong class="text-slate-200">Neri Polvani</strong>, author behind the writing project and brand <strong class="text-emerald-400">N3R1-70</strong>.
+                    </p>
+                    <p>
+                        My work lies at the intersection of rigorous analysis, thought architecture, and conceptual storytelling. Through my publications, I examine the underlying structures of human, legal, and technological systems.
+                    </p>
+                    <p>
+                        Alongside literary publications, I run independent initiatives including the legal analysis and activism project <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bio / Manifesto -->
+        <section id="autore" class="max-w-5xl mx-auto px-6 py-20">
+            <h2 class="text-xl font-bold mb-6 text-slate-200 tracking-wide flex items-center gap-2">
+                <span class="text-emerald-400">#</span> 
+                <span class="lang-it">MANIFESTO</span>
+                <span class="lang-en">MANIFESTO</span>
+            </h2>
+            <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
+                <div class="lang-it space-y-4">
+                    <p>
+                        <strong class="text-slate-200">N3R1-70</strong> è un sistema di analisi e scrittura indipendente.
+                    </p>
+                    <p>
+                        Ogni pubblicazione risponde a una logica di scomposizione della realtà, dove la scrittura diventa uno strumento tecnico per tracciare segni chiari nel disordine informativo.
+                    </p>
+                </div>
+                <div class="lang-en space-y-4">
+                    <p>
+                        <strong class="text-slate-200">N3R1-70</strong> is an independent system of analysis and writing.
+                    </p>
+                    <p>
+                        Each publication responds to a logic of deconstructing reality, where writing becomes a technical tool to etch clear signs within information chaos.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Integrato / Ecosystem -->
+    <footer class="border-t border-slate-800/80 bg-slate-950 py-10">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-xs text-slate-500">
+                <p>&copy; 2026 N3R1-70. n3r1-70.online</p>
+            </div>
+            
+            <div class="flex items-center gap-3 text-xs border border-slate-800 bg-slate-900/50 px-4 py-2 rounded">
+                <span class="text-slate-500">PROJECT NETWORK:</span>
+                <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold transition flex items-center gap-1">
+                    iwillnotlookaway.org &nearr;
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Language Switcher -->
+    <script>
+        let currentLang = 'it';
+        function toggleLanguage() {
+            currentLang = currentLang === 'it' ? 'en' : 'it';
+            
+            const itEls = document.querySelectorAll('.lang-it');
+            const enEls = document.querySelectorAll('.lang-en');
+            const btn = document.getElementById('lang-toggle');
+
+            if (currentLang === 'en') {
+                itEls.forEach(el => el.style.display = 'none');
+                enEls.forEach(el => el.style.display = 'inline-block');
+                btn.textContent = 'IT';
+            } else {
+                enEls.forEach(el => el.style.display = 'none');
+                itEls.forEach(el => el.style.display = 'inline-block');
+                btn.textContent = 'EN';
+            }
+        }
+    </script>
+
+</body>
+</html>
