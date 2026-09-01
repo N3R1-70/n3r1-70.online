@@ -45,6 +45,15 @@ CATEGORY_BY_PREFIX = [
     ("nd-", "Analisi"),
 ]
 
+STAT_LABELS = {
+    "manifesti": "Manifesti",
+    "analisi": "Analisi",
+    "attualita": "Attualità",
+    "opinioni": "Opinioni",
+    "fonti": "Fonti verificate",
+    "lingue": "Lingue",
+}
+
 
 def parse_date(text):
     """Estrae la data italiana più recente in un blocco di testo. Ritorna (datetime, str originale) o None."""
@@ -82,6 +91,22 @@ def nearby_text(tag, chars=400):
             return text[:chars]
         node = node.parent
     return ""
+
+
+def extract_stats(html):
+    """Estrae i contatori ('20 Attualità', '8 Manifesti', ...) dalla homepage."""
+    soup = BeautifulSoup(html, "html.parser")
+    label_to_key = {v: k for k, v in STAT_LABELS.items()}
+    pattern = re.compile(r"^(\d+)\s+(" + "|".join(re.escape(v) for v in STAT_LABELS.values()) + r")$")
+
+    stats = {}
+    for tag in soup.find_all(["a", "span", "div", "li"]):
+        text = tag.get_text(" ", strip=True)
+        m = pattern.match(text)
+        if m:
+            key = label_to_key[m.group(2)]
+            stats[key] = int(m.group(1))
+    return stats
 
 
 def extract_items(html, base_url):
@@ -123,7 +148,16 @@ def extract_items(html, base_url):
     return items
 
 
+def load_existing():
+    try:
+        return json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
 def main():
+    existing = load_existing()
+
     try:
         resp = requests.get(SOURCE_URL, timeout=TIMEOUT, headers={
             "User-Agent": "n3r1-70-feed-bot/1.0 (+https://n3r1-70.online)"
@@ -134,20 +168,27 @@ def main():
         return 0  # non fallire la action: si tiene il feed precedente
 
     items = extract_items(resp.text, SOURCE_URL)
+    stats = extract_stats(resp.text)
 
     if not items:
         print("Nessun elemento estratto: la struttura della pagina potrebbe essere cambiata. File esistente non toccato.", file=sys.stderr)
         return 0
 
+    # Se per qualche motivo uno o più contatori non si trovano più (pagina cambiata),
+    # mantiene l'ultimo valore noto invece di sparire dal sito.
+    merged_stats = dict(existing.get("stats", {}))
+    merged_stats.update(stats)
+
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": SOURCE_URL,
         "items": items[:MAX_ITEMS],
+        "stats": merged_stats,
     }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Scritto {OUTPUT_PATH} con {len(payload['items'])} elementi.")
+    print(f"Scritto {OUTPUT_PATH} con {len(payload['items'])} elementi e {len(merged_stats)} contatori.")
     return 0
 
 
