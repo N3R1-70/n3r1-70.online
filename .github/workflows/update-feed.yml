@@ -1,0 +1,39 @@
+name: Aggiorna feed I Will Not Look Away
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # ogni giorno alle 06:00 UTC (~08:00 in Italia)
+  workflow_dispatch: {}     # permette di lanciarlo a mano dalla tab "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa dipendenze
+        run: pip install -r scripts/requirements.txt
+
+      - name: Rigenera il feed
+        run: python scripts/update_feed.py
+
+      - name: Commit se ci sono cambiamenti
+        run: |
+          git config user.name "n3r1-70-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- data/iwnla-feed.json; then
+            git add data/iwnla-feed.json
+            git commit -m "Aggiorna feed I Will Not Look Away [automatico]"
+            git push
+          else
+            echo "Nessun cambiamento nel feed."
+          fi

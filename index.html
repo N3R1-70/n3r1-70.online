@@ -1,241 +1,145 @@
-<!DOCTYPE html>
-<html lang="it" class="scroll-smooth">
+<!doctype html>
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N3R1-70 | Opere & Protocolli / Works & Protocols</title>
-    <meta name="description" content="Sito ufficiale di N3R1-70 (Neri Polvani). Sistemi di analisi, saggi e protocolli di logica.">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body { background-color: #090d16; color: #f8fafc; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
-        .lang-en { display: none; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>N3R1-70 — Il Tecnico di Logica | Libri e I Will Not Look Away</title>
+<meta name="description" content="Sito dell'autore N3R1: i libri Il Tecnico di Logica, Protocollo Kernel-70, Questa è la mia terra!, e il progetto I Will Not Look Away.">
+<link rel="canonical" href="https://n3r1-70.online/index.html">
+<meta property="og:title" content="N3R1-70 — Il Tecnico di Logica | Libri e I Will Not Look Away">
+<meta property="og:description" content="Sito dell'autore N3R1: i libri Il Tecnico di Logica, Protocollo Kernel-70, Questa è la mia terra!, e il progetto I Will Not Look Away.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://n3r1-70.online/index.html">
+<meta property="og:image" content="https://n3r1-70.online/images/hero-portrait.jpg">
+<meta name="theme-color" content="#07090a">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" href="images/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
 </head>
-<body class="antialiased selection:bg-emerald-500 selection:text-black min-h-screen flex flex-col justify-between">
+<body>
+<a class="skip-link" href="#main">Vai al contenuto</a>
+<div class="grid-backdrop" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="shell">
+    <a class="brand" href="index.html">
+      <img src="images/logo.jpg" alt="" width="34" height="34">
+      N3R1<span>-70</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="index.html#libri">Libri</a>
+      <a href="chi-sono.html">Chi sono</a>
+      <a href="iwillnotlookaway.html">I Will Not Look Away</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
 
+<section class="hero">
+  <div class="shell">
     <div>
-        <!-- Header / Nav -->
-        <header class="w-full border-b border-slate-800/80 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
-            <div class="max-w-5xl mx-auto px-6 py-3 flex justify-between items-center">
-                
-                <!-- Brand Logo -->
-                <a href="#" class="flex items-center gap-3 group">
-                    <div class="relative w-11 h-11 rounded-full overflow-hidden border-2 border-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.5)] group-hover:shadow-[0_0_18px_rgba(16,185,129,0.8)] transition">
-                        <img src="img/logo.jpg" alt="N3R1-70 Logo" class="w-full h-full object-cover">
-                    </div>
-                    <span class="text-xl font-bold tracking-widest text-slate-100 group-hover:text-emerald-400 transition">
-                        N3R1<span class="text-emerald-400">-70</span>
-                    </span>
-                </a>
-                
-                <div class="flex items-center gap-6">
-                    <nav class="space-x-4 md:space-x-6 text-xs md:text-sm text-slate-400">
-                        <a href="#libri" class="hover:text-emerald-400 transition">
-                            <span class="lang-it">// OPERE</span>
-                            <span class="lang-en">// WORKS</span>
-                        </a>
-                        <a href="#chi-sono" class="hover:text-emerald-400 transition">
-                            <span class="lang-it">// CHI SONO</span>
-                            <span class="lang-en">// ABOUT ME</span>
-                        </a>
-                        <a href="#autore" class="hover:text-emerald-400 transition">
-                            <span class="lang-it">// MANIFESTO</span>
-                            <span class="lang-en">// MANIFESTO</span>
-                        </a>
-                    </nav>
+      <span class="eyebrow-id">N3R1-70</span>
+      <h1>Il Tecnico di Logica scrive quello che preferiamo non guardare.</h1>
+      <p class="subtitle">Un memoir, un saggio politico, un'inchiesta di diritto internazionale — e un progetto gemello di analisi giuridica.</p>
+      <p class="lede">Dietro lo pseudonimo N3R1 c'è un artigiano della pietra che ha imparato a leggere il mondo come una struttura: fondamenta, simmetrie, crepe. Da quella logica sono nati tre libri e I Will Not Look Away, una piattaforma di analisi fondate sul diritto internazionale.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#libri">Scopri i libri</a>
+        <a class="btn" href="iwillnotlookaway.html">I Will Not Look Away</a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <img src="images/hero-portrait.jpg" alt="Ritratto stilizzato dell'autore, sotto lo pseudonimo N3R1" width="1200" height="1200">
+    </div>
+  </div>
+</section>
 
-                    <button id="lang-toggle" onclick="toggleLanguage()" class="border border-emerald-500/40 bg-emerald-500/10 text-emerald-400 text-xs font-bold px-2.5 py-1 rounded hover:bg-emerald-500/20 transition">
-                        EN
-                    </button>
-                </div>
-            </div>
-        </header>
+<section class="section" id="libri">
+  <div class="shell">
+    <div class="section-head">
+      <h2>I libri</h2>
+      <span class="section-note">3 titoli pubblicati</span>
+    </div>
+    <p class="section-intro">Tre modi diversi di applicare la stessa domanda: cosa regge, quando lo guardiamo con lo stesso metro per tutti — su noi stessi, sulle istituzioni, sugli Stati.</p>
 
-        <!-- Hero Section -->
-        <section class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
-            <div class="flex flex-col md:flex-row items-center gap-10">
-                <div class="flex-1">
-                    <p class="text-emerald-400 text-xs font-semibold tracking-widest uppercase mb-3">
-                        <span class="lang-it">// SISTEMA DI PENSIERO & LOGICA</span>
-                        <span class="lang-en">// SYSTEM OF THOUGHT & LOGIC</span>
-                    </p>
-                    <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight text-slate-100">
-                        <span class="lang-it">Trasformare la logica in segno.</span>
-                        <span class="lang-en">Transforming logic into signs.</span>
-                    </h1>
-                    <p class="text-slate-400 text-base md:text-lg max-w-2xl mb-8 leading-relaxed">
-                        <span class="lang-it">Spazio ufficiale delle pubblicazioni, dei vettori analitici e dei protocolli firmati N3R1-70 (Neri Polvani).</span>
-                        <span class="lang-en">Official space for publications, analytical vectors, and protocols by N3R1-70 (Neri Polvani).</span>
-                    </p>
-                    <a href="#libri" class="inline-block bg-emerald-500 text-slate-950 font-bold px-6 py-3 rounded text-sm hover:bg-emerald-400 transition">
-                        <span class="lang-it">ESPLORA LE OPERE &rarr;</span>
-                        <span class="lang-en">EXPLORE WORKS &rarr;</span>
-                    </a>
-                </div>
-                
-                <!-- Hero Logo Frame -->
-                <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-emerald-500/80 shadow-[0_0_30px_rgba(16,185,129,0.3)] shrink-0">
-                    <img src="img/logo.jpg" alt="N3R1-70 Hero Logo" class="w-full h-full object-cover">
-                </div>
-            </div>
-        </section>
+    <div class="book-index">
+      <a class="book-row" href="libro-tecnico-di-logica.html">
+        <img class="book-thumb" src="images/covers/cover-tecnico-di-logica.jpg" alt="Copertina de Il Tecnico di Logica">
+        <span>
+          <span class="book-row-title" style="display:block;">Il Tecnico di Logica</span>
+          <span class="book-row-sub">Dalla palma di Zanzibar al cuore dell'uomo</span>
+        </span>
+        <span class="book-row-cta">Leggi la scheda</span>
+      </a>
+      <a class="book-row" href="libro-protocollo-kernel-70.html">
+        <img class="book-thumb" src="images/covers/cover-protocollo-kernel-70.jpg" alt="Copertina di Protocollo Kernel-70">
+        <span>
+          <span class="book-row-title" style="display:block;">Protocollo Kernel-70</span>
+          <span class="book-row-sub">Il Codice Sorgente del Nuovo Rinascimento Europeo</span>
+        </span>
+        <span class="book-row-cta">Leggi la scheda</span>
+      </a>
+      <a class="book-row" href="libro-questa-e-la-mia-terra.html">
+        <img class="book-thumb" src="images/covers/cover-questa-e-la-mia-terra.jpg" alt="Copertina di Questa è la mia terra!">
+        <span>
+          <span class="book-row-title" style="display:block;">Questa è la mia terra!</span>
+          <span class="book-row-sub">La complicità legalizzata</span>
+        </span>
+        <span class="book-row-cta">Leggi la scheda</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-        <!-- Grid Libri -->
-        <section id="libri" class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
-            <h2 class="text-xl font-bold mb-12 text-slate-200 tracking-wide flex items-center gap-2">
-                <span class="text-emerald-400">#</span> 
-                <span class="lang-it">LIBRI PUBBLICATI</span>
-                <span class="lang-en">PUBLISHED BOOKS</span>
-            </h2>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                
-                <!-- Libro 1: Il Tecnico di Logica -->
-                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
-                    <div>
-                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
-                            <img src="img/tecnico-di-logica.jpg" alt="Il Tecnico di Logica" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
-                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: Il Tecnico di Logica]</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-slate-100 mb-1">IL TECNICO DI LOGICA</h3>
-                        <p class="text-xs text-emerald-400 mb-4">
-                            <span class="lang-it">// Dalla palma di Zanzibar al cuore dell'uomo</span>
-                            <span class="lang-en">// From the palm of Zanzibar to the human heart</span>
-                        </p>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            <span class="lang-it">Un viaggio intimo tra memoria, controllo e vulnerabilità. La logica diventa architettura dell'identità per sorreggere il peso del mondo, finché l'escluso chiede spazio.</span>
-                            <span class="lang-en">An intimate journey through memory, control, and vulnerability. Logic becomes identity architecture to bear the world's weight, until the excluded demands space.</span>
-                        </p>
-                    </div>
-                    <a href="https://www.amazon.it/dp/B0HH6PDQVP" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
-                        <span class="lang-it">Acquista su Amazon &rarr;</span>
-                        <span class="lang-en">Buy on Amazon &rarr;</span>
-                    </a>
-                </div>
+<section class="section">
+  <div class="shell">
+    <div class="section-head">
+      <h2>Il progetto gemello</h2>
+      <span class="section-note">iwillnotlookaway.org</span>
+    </div>
+    <p class="section-intro">Parallelamente ai libri, N3R1 cura I Will Not Look Away: manifesti e analisi fondati sul diritto internazionale, con lo stesso metodo di verifica che attraversa "Questa è la mia terra!".</p>
 
-                <!-- Libro 2: PROTOCOLLO KERNEL-70 -->
-                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
-                    <div>
-                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
-                            <img src="img/kernel-70.jpg" alt="PROTOCOLLO KERNEL-70" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
-                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: PROTOCOLLO KERNEL-70]</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-slate-100 mb-1">PROTOCOLLO KERNEL-70</h3>
-                        <p class="text-xs text-emerald-400 mb-4">
-                            <span class="lang-it">// Il Codice Sorgente del Nuovo Rinascimento Europeo</span>
-                            <span class="lang-en">// Source Code of the New European Renaissance</span>
-                        </p>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            <span class="lang-it">Un manuale di ingegneria istituzionale spietato e visionario. Una mossa geometrica per resettare il sistema operativo della civiltà occidentale.</span>
-                            <span class="lang-en">A ruthless, visionary manual of institutional engineering. A geometric move to reset Western civilization's operating system.</span>
-                        </p>
-                    </div>
-                    <a href="https://www.amazon.it/dp/B0H63BHDSG" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
-                        <span class="lang-it">Acquista su Amazon &rarr;</span>
-                        <span class="lang-en">Buy on Amazon &rarr;</span>
-                    </a>
-                </div>
-
-                <!-- Libro 3: Questa è la mia terra! -->
-                <div class="bg-slate-950/50 border border-slate-800/80 rounded-lg p-6 flex flex-col justify-between hover:border-emerald-500/50 transition">
-                    <div>
-                        <div class="w-full h-72 bg-slate-900 rounded mb-4 overflow-hidden border border-slate-800 flex items-center justify-center">
-                            <img src="img/questa-e-la-mia-terra.jpg" alt="Questa è la mia terra!" class="w-full h-full object-cover hidden" onload="this.classList.remove('hidden')">
-                            <span class="text-slate-600 text-xs p-4 text-center">[Copertina: Questa è la mia terra!]</span>
-                        </div>
-                        <h3 class="text-lg font-bold text-slate-100 mb-1">QUESTA È LA MIA TERRA!</h3>
-                        <p class="text-xs text-emerald-400 mb-4">
-                            <span class="lang-it">// La complicità legalizzata</span>
-                            <span class="lang-en">// Legalized Complicity</span>
-                        </p>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
-                            <span class="lang-it">Un'indagine basata su fatti verificabili, sentenze della CIG e fonti classificate su 4 livelli. Un test di universalità applicato al diritto e alla realtà in Cisgiordania.</span>
-                            <span class="lang-en">An investigation based on verifiable facts, ICJ rulings, and 4-level classified sources. A test of universality applied to law and reality in the West Bank.</span>
-                        </p>
-                    </div>
-                    <a href="https://www.amazon.it/dp/B0GLJW24C5" target="_blank" rel="noopener noreferrer" class="block w-full text-center bg-slate-900 hover:bg-slate-800 text-emerald-400 text-xs font-semibold py-2.5 rounded border border-slate-800 transition">
-                        <span class="lang-it">Acquista su Amazon &rarr;</span>
-                        <span class="lang-en">Buy on Amazon &rarr;</span>
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Section: Chi Sono -->
-        <section id="chi-sono" class="max-w-5xl mx-auto px-6 py-20 border-b border-slate-800/80">
-            <h2 class="text-xl font-bold mb-6 text-slate-200 tracking-wide flex items-center gap-2">
-                <span class="text-emerald-400">#</span> 
-                <span class="lang-it">CHI SONO</span>
-                <span class="lang-en">ABOUT ME</span>
-            </h2>
-            <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
-                <div class="lang-it space-y-4">
-                    <p>Sono <strong class="text-slate-200">Neri Polvani</strong>, autore del progetto e del marchio di scrittura <strong class="text-emerald-400">N3R1-70</strong>.</p>
-                    <p>Il mio lavoro si muove all'intersezione tra analisi rigorosa, architettura della logica e narrazione concettuale. Attraverso le mie pubblicazioni, esploro le strutture sottostanti dei sistemi umani, giuridici e tecnologici.</p>
-                    <p>Oltre alla produzione editoriale, gestisco iniziative indipendenti tra cui il progetto di attivismo e analisi giuridica <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.</p>
-                </div>
-                <div class="lang-en space-y-4">
-                    <p>I am <strong class="text-slate-200">Neri Polvani</strong>, author behind the writing project and brand <strong class="text-emerald-400">N3R1-70</strong>.</p>
-                    <p>My work lies at the intersection of rigorous analysis, thought architecture, and conceptual storytelling. Through my publications, I examine the underlying structures of human, legal, and technological systems.</p>
-                    <p>Alongside literary publications, I run independent initiatives including the legal analysis and activism project <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:underline">iwillnotlookaway.org</a>.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Bio / Manifesto -->
-        <section id="autore" class="max-w-5xl mx-auto px-6 py-20">
-            <h2 class="text-xl font-bold mb-6 text-slate-200 tracking-wide flex items-center gap-2">
-                <span class="text-emerald-400">#</span> 
-                <span class="lang-it">MANIFESTO</span>
-                <span class="lang-en">MANIFESTO</span>
-            </h2>
-            <div class="max-w-3xl text-slate-400 space-y-4 leading-relaxed text-sm md:text-base">
-                <div class="lang-it space-y-4">
-                    <p><strong class="text-slate-200">N3R1-70</strong> è un sistema di analisi e scrittura indipendente.</p>
-                    <p>Ogni pubblicazione risponde a una logica di scomposizione della realtà, dove la scrittura diventa uno strumento tecnico per tracciare segni chiari nel disordine informativo.</p>
-                </div>
-                <div class="lang-en space-y-4">
-                    <p><strong class="text-slate-200">N3R1-70</strong> is an independent system of analysis and writing.</p>
-                    <p>Each publication responds to a logic of deconstructing reality, where writing becomes a technical tool to etch clear signs within information chaos.</p>
-                </div>
-            </div>
-        </section>
+    <div class="iwnla-card">
+      <img src="https://iwillnotlookaway.org/logo.png" alt="I Will Not Look Away" loading="lazy">
+      <div>
+        <p style="margin-bottom:1rem;">"Il diritto vale per tutti o non vale per nessuno." Manifesti, analisi e petizioni su Gaza, Ucraina, Sudan, Venezuela e altri fronti che l'informazione internazionale copre poco.</p>
+        <a class="btn" href="iwillnotlookaway.html">Vai al progetto</a>
+        <div class="stat-row">
+          <div class="stat"><span class="stat-n">8</span><span class="stat-l">Manifesti</span></div>
+          <div class="stat"><span class="stat-n">27</span><span class="stat-l">Analisi</span></div>
+          <div class="stat"><span class="stat-n">20</span><span class="stat-l">Attualità</span></div>
+          <div class="stat"><span class="stat-n">11</span><span class="stat-l">Lingue</span></div>
+        </div>
+      </div>
     </div>
 
-    <!-- Footer Integrato / Ecosystem -->
-    <footer class="border-t border-slate-800/80 bg-slate-950 py-10">
-        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
-            <div class="text-xs text-slate-500">
-                <p>&copy; 2026 N3R1-70. n3r1-70.online</p>
-            </div>
-            <div class="flex items-center gap-3 text-xs border border-slate-800 bg-slate-900/50 px-4 py-2 rounded">
-                <span class="text-slate-500">PROJECT NETWORK:</span>
-                <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold transition flex items-center gap-1">
-                    iwillnotlookaway.org &nearr;
-                </a>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        let currentLang = 'it';
-        function toggleLanguage() {
-            currentLang = currentLang === 'it' ? 'en' : 'it';
-            const itEls = document.querySelectorAll('.lang-it');
-            const enEls = document.querySelectorAll('.lang-en');
-            const btn = document.getElementById('lang-toggle');
-
-            if (currentLang === 'en') {
-                itEls.forEach(el => el.style.display = 'none');
-                enEls.forEach(el => el.style.display = 'inline-block');
-                btn.textContent = 'IT';
-            } else {
-                enEls.forEach(el => el.style.display = 'none');
-                itEls.forEach(el => el.style.display = 'inline-block');
-                btn.textContent = 'EN';
-            }
-        }
-    </script>
+    <div class="section-head" style="margin-top:2.6rem;">
+      <h2 style="font-size:1.1rem;">Ultimi aggiornamenti</h2>
+      <span class="section-note">aggiornato automaticamente</span>
+    </div>
+    <div class="feed-list" id="feed-teaser" data-limit="4">
+      <p class="feed-status">Caricamento aggiornamenti…</p>
+    </div>
+    <p style="margin-top:1.2rem;"><a class="btn" href="iwillnotlookaway.html">Vedi tutti gli aggiornamenti</a></p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="shell">
+    <span>N3R1-70 · n3r1-70.online</span>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="chi-sono.html">Chi sono</a>
+      <a href="iwillnotlookaway.html">I Will Not Look Away</a>
+    </div>
+    <span>&copy; 2026</span>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/feed.js" defer></script>
 </body>
 </html>
