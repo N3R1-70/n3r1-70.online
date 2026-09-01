@@ -98,7 +98,5 @@ CNAME                             Dominio personalizzato per GitHub Pages
   iniziato" e "scegliamo di essere é ciò che" — in entrambi i casi sembra
   mancare una "e" (congiunzione) al posto di "é". Dimmi se li correggo.
 - I numeri della sezione "Il progetto gemello" (8 manifesti, 27 analisi...)
-  sono presi a mano dalla homepage di iwillnotlookaway.org al momento della
-  creazione del sito e **non si aggiornano da soli** — solo la lista degli
-  "ultimi aggiornamenti" lo fa. Se ti interessa automatizzare anche quelli,
-  è una piccola estensione dello stesso script.
+  **si aggiornano da soli**, insieme alla lista degli "ultimi aggiornamenti",
+  tramite lo stesso script/workflow — non serve nessuna azione in più.
