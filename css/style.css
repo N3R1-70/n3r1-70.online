@@ -551,7 +551,13 @@ p{ margin: 0 0 1.2em; }
 
 .stat{
   font-family: var(--font-mono);
+  text-decoration: none;
+  display: block;
 }
+
+a.stat{ transition: opacity .15s ease; }
+a.stat:hover{ opacity: 0.8; }
+a.stat:hover .stat-l{ color: var(--accent); }
 
 .stat .stat-n{
   font-size: 1.6rem;
@@ -562,6 +568,7 @@ p{ margin: 0 0 1.2em; }
 .stat .stat-l{
   font-size: 0.78rem;
   color: var(--text-faint);
+  transition: color .15s ease;
 }
 
 /* --------------------------------- about / bio -------------------------------- */
