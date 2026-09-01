@@ -189,7 +189,7 @@ p{ margin: 0 0 1.2em; }
 
 @media (max-width: 860px){
   .hero .shell{ grid-template-columns: 1fr; }
-  .hero-portrait{ order: -1; max-width: 260px; margin: 0 auto; }
+  .hero-portrait{ order: -1; max-width: min(440px, 85%); margin: 0 auto; }
 }
 
 .eyebrow-id{
@@ -216,7 +216,6 @@ p{ margin: 0 0 1.2em; }
 .hero p.lede{
   color: var(--text-muted);
   font-size: 1.05rem;
-  max-width: 46ch;
 }
 
 .hero-actions{
@@ -228,11 +227,15 @@ p{ margin: 0 0 1.2em; }
 
 .hero-portrait{
   position: relative;
-  border: 1px solid var(--line-strong);
-  padding: 10px;
 }
 
-.hero-portrait img{ width: 100%; height: auto; }
+.hero-portrait img{
+  width: 100%;
+  height: auto;
+  display: block;
+  -webkit-mask-image: radial-gradient(ellipse 82% 82% at 50% 45%, black 62%, transparent 100%);
+          mask-image: radial-gradient(ellipse 82% 82% at 50% 45%, black 62%, transparent 100%);
+}
 
 /* --------------------------------- buttons ---------------------------------- */
 
