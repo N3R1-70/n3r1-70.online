@@ -24,10 +24,19 @@
     container.innerHTML = html;
   }
 
+  function renderStats(data) {
+    var stats = data && data.stats;
+    if (!stats) return;
+    Object.keys(stats).forEach(function (key) {
+      var el = document.querySelector('[data-stat="' + key + '"]');
+      if (el) el.textContent = stats[key];
+    });
+  }
+
   function loadFeed() {
     var teaser = document.getElementById("feed-teaser");
     var full = document.getElementById("feed-full");
-    if (!teaser && !full) return;
+    if (!teaser && !full && !document.querySelector("[data-stat]")) return;
 
     fetch("data/iwnla-feed.json", { cache: "no-store" })
       .then(function (res) {
@@ -43,6 +52,7 @@
         if (full) {
           renderItems(full, items);
         }
+        renderStats(data);
       })
       .catch(function () {
         var msg = '<p class="feed-status">Aggiornamenti non disponibili al momento. Visita <a href="https://iwillnotlookaway.org" target="_blank" rel="noopener">iwillnotlookaway.org</a> direttamente.</p>';
