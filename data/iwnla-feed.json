@@ -1,6 +1,68 @@
 {
-  "generated_at": "2026-09-01T00:00:00Z",
+  "generated_at": "2026-09-02T10:10:14Z",
   "source": "https://iwillnotlookaway.org/",
+  "items": [
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-dip.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-fame.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-im.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-fl.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-us.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-sd.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m-ru.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "Manifesti",
+      "url": "https://iwillnotlookaway.org/s/it/m1.html",
+      "date": "",
+      "category": "Manifesto"
+    },
+    {
+      "title": "L'avvertimento dei propri generali: la violenza dei coloni minaccia la sicurezza di Israele",
+      "url": "https://iwillnotlookaway.org/s/it/nd-generali-coloni.html",
+      "date": "",
+      "category": "Analisi"
+    },
+    {
+      "title": "Il velo integrale e lo stato: imposizione, divieto, non-intervento",
+      "url": "https://iwillnotlookaway.org/s/it/nd-velo-coercizione-statale.html",
+      "date": "",
+      "category": "Analisi"
+    }
+  ],
   "stats": {
     "manifesti": 8,
     "analisi": 27,
@@ -8,67 +70,5 @@
     "opinioni": 13,
     "fonti": 90,
     "lingue": 11
-  },
-  "items": [
-    {
-      "title": "Il varco riaperto nella riservatezza delle comunicazioni: un caso europeo, uno standard universale",
-      "url": "https://iwillnotlookaway.org/s/it/nd-varco-riservatezza-comunicazioni.html",
-      "date": "Settembre 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Il nodo dell'identificazione: perché il rimpatrio resta spesso solo una minaccia sulla carta",
-      "url": "https://iwillnotlookaway.org/s/it/nd-nodo-identificazione.html",
-      "date": "Luglio 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Chi ha detto cosa: il dissenso ridefinito come terrorismo",
-      "url": "https://iwillnotlookaway.org/s/it/nd-terrorismo-del-dissenso.html",
-      "date": "Luglio 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "L'avvertimento dei propri generali: la violenza dei coloni minaccia la sicurezza di Israele",
-      "url": "https://iwillnotlookaway.org/s/it/nd-generali-coloni.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Un sindaco, un mandato d'arresto, una domanda che nessuno vuole porsi sul serio",
-      "url": "https://iwillnotlookaway.org/s/it/nd-mamdani-netanyahu.html",
-      "date": "Luglio 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Il velo integrale e lo stato: imposizione, divieto, non-intervento",
-      "url": "https://iwillnotlookaway.org/s/it/nd-velo-coercizione-statale.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Yemen: 73 dipendenti ONU ancora detenuti arbitrariamente dagli Houthi, mentre Hodeidah torna a sanguinare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-yemen.html",
-      "date": "Luglio 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Trump rivuole la Groenlandia. E la NATO minaccia sé stessa.",
-      "url": "https://iwillnotlookaway.org/s/it/nd-groenlandia.html",
-      "date": "Luglio 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Quando la parola dell'uomo più potente del mondo non vale più nulla",
-      "url": "https://iwillnotlookaway.org/s/it/op-parola-data.html",
-      "date": "2026",
-      "category": "Opinione"
-    },
-    {
-      "title": "L'autorevolezza che si logora",
-      "url": "https://iwillnotlookaway.org/s/it/op-credibilita-logora.html",
-      "date": "2026",
-      "category": "Opinione"
-    }
-  ]
+  }
 }
