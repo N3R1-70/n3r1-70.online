@@ -187,19 +187,19 @@ def main():
     items = extract_items(resp.text, SOURCE_URL)
     stats = extract_stats(resp.text)
 
-    if not items:
-        print("Nessun elemento estratto: la struttura della pagina potrebbe essere cambiata. File esistente non toccato.", file=sys.stderr)
-        return 0
-
-    # Se per qualche motivo uno o più contatori non si trovano più (pagina cambiata),
-    # mantiene l'ultimo valore noto invece di sparire dal sito.
+    # Contatori e articoli sono indipendenti: se uno dei due non si trova
+    # (pagina cambiata, rete lenta...) l'altro si aggiorna comunque.
     merged_stats = dict(existing.get("stats", {}))
     merged_stats.update(stats)
+
+    final_items = items[:MAX_ITEMS] if items else existing.get("items", [])
+    if not items:
+        print("Nessun articolo estratto: tengo la lista precedente, aggiorno solo i contatori se trovati.", file=sys.stderr)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": SOURCE_URL,
-        "items": items[:MAX_ITEMS],
+        "items": final_items,
         "stats": merged_stats,
     }
 
