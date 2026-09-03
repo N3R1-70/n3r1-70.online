@@ -109,6 +109,9 @@ def extract_stats(html):
     return stats
 
 
+SECTION_LABELS = {"Manifesti", "Analisi", "Attualità", "Opinioni", "Argomenti", "Fonti verificate", "Lingue"}
+
+
 def extract_items(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
     items = []
@@ -123,22 +126,35 @@ def extract_items(html, base_url):
         if href in seen_urls:
             continue
 
+        category = guess_category(href)
+        if category == "Manifesto":
+            # I manifesti sono documenti sempre validi, senza data di pubblicazione:
+            # non appartengono a un feed di "ultimi aggiornamenti" datato.
+            continue
+
         heading = link.find_previous(["h1", "h2", "h3", "h4"])
         if not heading:
             continue
         title = heading.get_text(" ", strip=True)
-        if not title or len(title) < 8:
+        if not title or len(title) < 8 or title in SECTION_LABELS:
+            # Titolo non trovato per il singolo elemento: quello intercettato è
+            # il titolo della sezione (es. "Manifesti"), non dell'articolo. Meglio
+            # scartare che pubblicare un titolo sbagliato/ripetuto.
             continue
 
         block_text = nearby_text(link)
         parsed = parse_date(block_text) or parse_date(title)
+        if not parsed:
+            # Niente data trovata: il feed deve restare pulito e datato,
+            # quindi si scarta piuttosto che inventare/lasciare vuoto.
+            continue
 
         items.append({
             "title": title,
             "url": href,
-            "date": parsed[1] if parsed else "",
-            "_sort_key": parsed[0] if parsed else datetime(1970, 1, 1, tzinfo=timezone.utc),
-            "category": guess_category(href),
+            "date": parsed[1],
+            "_sort_key": parsed[0],
+            "category": category,
         })
         seen_urls.add(href)
 
