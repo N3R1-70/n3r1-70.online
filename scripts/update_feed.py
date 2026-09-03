@@ -80,17 +80,19 @@ def guess_category(url):
     return "Analisi"
 
 
-def nearby_text(tag, chars=400):
-    """Raccoglie il testo del contenitore più vicino attorno a un tag, per cercarci una data."""
+def find_nearby_date(tag, max_levels=6):
+    """Risale i contenitori a partire dal genitore del link, fermandosi al primo
+    livello in cui il testo raccolto contiene una data valida."""
     node = tag
-    for _ in range(4):
-        if node is None:
+    for _ in range(max_levels):
+        if node.parent is None:
             break
-        text = node.get_text(" ", strip=True)
-        if text:
-            return text[:chars]
         node = node.parent
-    return ""
+        text = node.get_text(" ", strip=True)
+        parsed = parse_date(text)
+        if parsed:
+            return parsed
+    return None
 
 
 def extract_stats(html):
@@ -142,8 +144,7 @@ def extract_items(html, base_url):
             # scartare che pubblicare un titolo sbagliato/ripetuto.
             continue
 
-        block_text = nearby_text(link)
-        parsed = parse_date(block_text) or parse_date(title)
+        parsed = find_nearby_date(link) or parse_date(title)
         if not parsed:
             # Niente data trovata: il feed deve restare pulito e datato,
             # quindi si scarta piuttosto che inventare/lasciare vuoto.
