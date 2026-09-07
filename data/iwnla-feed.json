@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:53:53Z",
+  "generated_at": "2026-09-07T11:01:11Z",
   "source": "https://iwillnotlookaway.org/",
   "items": [
     {
@@ -33,6 +33,18 @@
       "category": "Analisi"
     },
     {
+      "title": "L’ONU dice che non si può tornare in Siria in sicurezza. Turchia e Germania li rimandano comunque.",
+      "url": "https://iwillnotlookaway.org/s/it/nd-siria-rimpatri.html",
+      "date": "26 luglio 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Tre Stati, un solo trattato, tre pesi diversi",
+      "url": "https://iwillnotlookaway.org/s/it/nd-tre-standard-nucleari.html",
+      "date": "22 luglio 2026",
+      "category": "Analisi"
+    },
+    {
       "title": "Etiopia: la guerra che il governo continua a chiamare «problema di sicurezza»",
       "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-amhara.html",
       "date": "21 luglio 2026",
@@ -49,18 +61,6 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-asse-resistenza.html",
       "date": "18 luglio 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Un sindaco, un mandato d'arresto, una domanda che nessuno vuole porsi sul serio",
-      "url": "https://iwillnotlookaway.org/s/it/nd-mamdani-netanyahu.html",
-      "date": "18 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Droni turchi e cinesi ad Haftar: la Libia resta terreno di violazione dell'embargo ONU, ora da entrambi i lati del fronte",
-      "url": "https://iwillnotlookaway.org/s/it/nd-libia-droni.html",
-      "date": "17 luglio 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
@@ -68,7 +68,7 @@
     "analisi": 30,
     "attualita": 20,
     "opinioni": 14,
-    "fonti": 90,
+    "fonti": 111,
     "lingue": 11
   }
 }
