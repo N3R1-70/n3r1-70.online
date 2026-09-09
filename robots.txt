@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://n3r1-70.online/sitemap.xml
