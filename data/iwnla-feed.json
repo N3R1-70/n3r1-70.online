@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-10T15:29:42Z",
-  "source": "https://iwillnotlookaway.org/",
+  "generated_at": "2026-09-10T16:30:01Z",
+  "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Yemen: la guerra torna a intensificarsi e rilancia il reclutamento di minori, mentre l'ONU avverte del rischio carestia",
+      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
+      "date": "10 settembre 2026",
+      "category": "Attualità"
+    },
+    {
+      "title": "L’ONU dice che il rientro in Afghanistan non è sicuro. Il Pakistan continua a rimandarli — anche ora che i due Paesi si dichiarano guerra.",
+      "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-deportazioni.html",
+      "date": "9 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Il Niger lascia la Corte penale internazionale, mentre Stati Uniti e Italia proseguono la cooperazione militare",
+      "url": "https://iwillnotlookaway.org/s/it/nd-niger-cpi.html",
+      "date": "7 settembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Taiwan: il prezzo di un equilibrio che nessuno vuole rompere",
       "url": "https://iwillnotlookaway.org/s/it/nd-taiwan-prezzo-equilibrio.html",
@@ -15,52 +33,34 @@
       "category": "Analisi"
     },
     {
-      "title": "Yemen: la guerra torna a intensificarsi e rilancia il reclutamento di minori, mentre l'ONU avverte del rischio carestia",
-      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
-      "date": "Settembre 2026",
-      "category": "Attualità"
+      "title": "Guerra ibrida, prove nascoste: l'escalation a doppio binario",
+      "url": "https://iwillnotlookaway.org/s/it/op-guerra-ibrida-doppio-binario.html",
+      "date": "2 settembre 2026",
+      "category": "Opinione"
     },
     {
       "title": "Il varco riaperto nella riservatezza delle comunicazioni: un caso europeo, uno standard universale",
       "url": "https://iwillnotlookaway.org/s/it/nd-varco-riservatezza-comunicazioni.html",
-      "date": "Settembre 2026",
+      "date": "1 settembre 2026",
       "category": "Attualità"
     },
     {
-      "title": "L'avvertimento dei propri generali: la violenza dei coloni minaccia la sicurezza di Israele",
-      "url": "https://iwillnotlookaway.org/s/it/nd-generali-coloni.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
+      "title": "L'autorevolezza che si logora — quando si critica una democrazia senza guardare la propria",
+      "url": "https://iwillnotlookaway.org/s/it/op-credibilita-logora.html",
+      "date": "3 agosto 2026",
+      "category": "Opinione"
     },
     {
-      "title": "Il velo integrale e lo stato: imposizione, divieto, non-intervento",
-      "url": "https://iwillnotlookaway.org/s/it/nd-velo-coercizione-statale.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
+      "title": "Quando la parola dell'uomo più potente del mondo non vale più nulla",
+      "url": "https://iwillnotlookaway.org/s/it/op-parola-data.html",
+      "date": "3 agosto 2026",
+      "category": "Opinione"
     },
     {
-      "title": "Tredici anni per rovesciare un uomo che l'Occidente aveva già rinunciato a rovesciare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-siria-tredici-anni.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Un accordo che funzionava, stracciato lo stesso",
-      "url": "https://iwillnotlookaway.org/s/it/nd-accordo-stracciato-iran.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Trent'anni per arrivare a una guerra",
-      "url": "https://iwillnotlookaway.org/s/it/nd-trenta-anni-guerra.html",
-      "date": "28 luglio 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Due mandati, zero arresti",
-      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-mandati-ineseguiti.html",
-      "date": "27 luglio 2026",
-      "category": "Analisi"
+      "title": "L'astensionismo come diagnosi, non come ricetta",
+      "url": "https://iwillnotlookaway.org/s/it/op-astensionismo-ragionato.html",
+      "date": "31 luglio 2026",
+      "category": "Opinione"
     }
   ],
   "stats": {
