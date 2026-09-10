@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:32:12Z",
+  "generated_at": "2026-09-10T15:29:42Z",
   "source": "https://iwillnotlookaway.org/",
   "items": [
     {
@@ -13,6 +13,12 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-minerali-per-sicurezza.html",
       "date": "2 settembre 2026",
       "category": "Analisi"
+    },
+    {
+      "title": "Yemen: la guerra torna a intensificarsi e rilancia il reclutamento di minori, mentre l'ONU avverte del rischio carestia",
+      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
+      "date": "Settembre 2026",
+      "category": "Attualità"
     },
     {
       "title": "Il varco riaperto nella riservatezza delle comunicazioni: un caso europeo, uno standard universale",
@@ -55,18 +61,12 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-cpi-mandati-ineseguiti.html",
       "date": "27 luglio 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Quindici anni per un mandato",
-      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-mosca-khan.html",
-      "date": "27 luglio 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 33,
-    "attualita": 20,
+    "attualita": 21,
     "opinioni": 14,
     "fonti": 120,
     "lingue": 11
