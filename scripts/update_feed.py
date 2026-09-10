@@ -1,62 +1,57 @@
 #!/usr/bin/env python3
 """
-Aggiorna data/iwnla-feed.json leggendo le pagine pubbliche di iwillnotlookaway.org.
-
-iwillnotlookaway.org non espone un feed RSS/Atom pubblico rilevabile, quindi
-questo script legge la homepage (che elenca manifesti, analisi, attualità e
-opinioni) e ne estrae i link "Leggi ..." più recenti.
-
-Categoria e data sono derivate dalla struttura reale della pagina, non da
-euristiche sull'URL:
-- la categoria è il titolo di sezione (<h2>Analisi</h2>, <h2>Attualità</h2>...)
-  che precede l'articolo nel documento;
-- la data è il testo-data che precede il titolo dell'articolo (il "kicker",
-  es. "28 luglio 2026"), cercato all'indietro nel documento — non risalendo
-  i genitori del link, perché quel percorso inglobava anche la citazione
-  con l'attribuzione (che spesso contiene un'altra data, quella della fonte
-  citata) e quella finiva per vincere su quella vera dell'articolo.
+Aggiorna data/iwnla-feed.json leggendo:
+- il feed RSS di iwillnotlookaway.org (https://iwillnotlookaway.org/feed.xml)
+  per gli articoli: ogni <item> porta due tag <category> — uno è la lingua
+  (IT, EN, FR...) e l'altro è la categoria editoriale in maiuscolo (ANALISI,
+  ATTUALITÀ, OPINIONE, MANIFESTO) — quindi niente più bisogno di indovinare
+  la categoria dal prefisso dell'URL o dalla sezione della pagina. La data
+  (pubDate) è un timestamp RFC 822 preciso, non un testo libero misto a
+  citazioni, quindi niente più rischio di confondere la data dell'articolo
+  con una data citata nel corpo del testo.
+- la homepage di iwillnotlookaway.org per i contatori (Manifesti, Analisi,
+  Attualità, Opinioni, Fonti verificate, Lingue), che non sono nel feed.
 
 Pensato per girare ogni giorno via GitHub Actions (vedi
-.github/workflows/update-feed.yml). Se lo scraping fallisce o non trova nulla,
-lo script NON sovrascrive il file esistente: esce con un messaggio e basta,
-così il sito mostra sempre l'ultimo aggiornamento riuscito.
+.github/workflows/update-feed.yml). Se una delle due fonti fallisce,
+lo script NON sovrascrive quella parte del file esistente: aggiorna solo
+quello che è riuscito a leggere.
 """
 
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 
+FEED_URL = "https://iwillnotlookaway.org/feed.xml"
 SOURCE_URL = "https://iwillnotlookaway.org/"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "iwnla-feed.json"
 MAX_ITEMS = 10
 TIMEOUT = 20
+LANGUAGE_FILTER = "IT"
 
-MONTHS = {
-    "gennaio": 1, "febbraio": 2, "marzo": 3, "aprile": 4, "maggio": 5,
-    "giugno": 6, "luglio": 7, "agosto": 8, "settembre": 9, "ottobre": 10,
-    "novembre": 11, "dicembre": 12,
+# Categoria dichiarata nel feed (maiuscolo) -> etichetta da scrivere nel feed
+# del sito. "Manifesto" viene comunque escluso più sotto: i manifesti sono
+# documenti sempre validi, senza data di pubblicazione, e non appartengono
+# a un feed di "ultimi aggiornamenti" datato.
+CATEGORY_MAP = {
+    "ANALISI": "Analisi",
+    "ATTUALITÀ": "Attualità",
+    "OPINIONE": "Opinione",
+    "MANIFESTO": "Manifesto",
 }
-DATE_RE = re.compile(
-    r"(\d{1,2}\s+)?(" + "|".join(MONTHS.keys()) + r")\s+(\d{4})",
-    re.IGNORECASE,
-)
 
-# Sezioni riconosciute dagli <h2> della homepage -> etichetta di categoria da
-# scrivere nel feed. La chiave è cercata come sottostringa nel testo (in
-# minuscolo) dell'h2, così tollera piccole variazioni di markup.
-SECTION_CATEGORY = [
-    ("manifesti", "Manifesto"),
-    ("analisi", "Analisi"),
-    ("attualità", "Attualità"),
-    ("attualita", "Attualità"),
-    ("opinioni", "Opinione"),
-]
+MONTHS_IT = {
+    1: "gennaio", 2: "febbraio", 3: "marzo", 4: "aprile", 5: "maggio",
+    6: "giugno", 7: "luglio", 8: "agosto", 9: "settembre", 10: "ottobre",
+    11: "novembre", 12: "dicembre",
+}
 
 STAT_LABELS = {
     "manifesti": "Manifesti",
@@ -67,51 +62,59 @@ STAT_LABELS = {
     "lingue": "Lingue",
 }
 
-SECTION_LABELS = {"Manifesti", "Analisi", "Attualità", "Opinioni", "Argomenti", "Fonti verificate", "Lingue"}
+TITLE_LANG_SUFFIX_RE = re.compile(r"\s*\[" + LANGUAGE_FILTER + r"\]\s*$")
 
 
-def parse_date(text):
-    """Estrae UNA data italiana da un pezzo di testo breve (già mirato).
-    Ritorna (datetime, stringa originale) o None."""
-    match = DATE_RE.search(text or "")
-    if not match:
-        return None
-    day = int(match.group(1).strip()) if match.group(1) else 1
-    month = MONTHS[match.group(2).lower()]
-    year = int(match.group(3))
-    try:
-        dt = datetime(year, month, day, tzinfo=timezone.utc)
-    except ValueError:
-        return None
-    return dt, match.group(0).strip()
+def format_italian_date(dt):
+    return f"{dt.day} {MONTHS_IT[dt.month]} {dt.year}"
 
 
-def guess_category(heading):
-    """Categoria = titolo di sezione (<h2>) più vicino PRIMA di questo articolo
-    nel documento. Riflette la struttura reale della pagina invece di
-    indovinare dal prefisso dell'URL (che su questo sito è ambiguo: sia
-    Analisi sia Attualità usano lo slug 'nd-')."""
-    h2 = heading.find_previous("h2")
-    if not h2:
-        return None
-    text = h2.get_text(strip=True).lower()
-    for key, label in SECTION_CATEGORY:
-        if key in text:
-            return label
-    return None
+def extract_items_from_feed(xml_text):
+    """Estrae gli articoli in italiano dal feed RSS, con categoria e data
+    già strutturate (niente più euristiche sul markup della homepage)."""
+    root = ET.fromstring(xml_text)
+    items = []
 
+    for item in root.findall(".//item"):
+        categories = [c.text.strip() for c in item.findall("category") if c.text]
+        if LANGUAGE_FILTER not in categories:
+            continue
 
-def find_kicker_date(heading):
-    """Cerca all'indietro nel documento, a partire dal titolo, il testo-data
-    più vicino (il 'kicker' che precede ogni titolo, es. '28 luglio 2026').
-    Cercare all'INDIETRO dal titolo (non in avanti, non risalendo i genitori)
-    evita di intercettare la data della citazione/attribuzione che segue il
-    titolo, la quale appartiene alla fonte citata e non alla data di
-    pubblicazione dell'articolo."""
-    node = heading.find_previous(string=DATE_RE)
-    if node is None:
-        return None
-    return parse_date(str(node))
+        category = None
+        for c in categories:
+            if c in CATEGORY_MAP:
+                category = CATEGORY_MAP[c]
+                break
+        if category is None or category == "Manifesto":
+            continue
+
+        title_el = item.find("title")
+        link_el = item.find("link")
+        pubdate_el = item.find("pubDate")
+        if title_el is None or link_el is None or pubdate_el is None:
+            continue
+        if not title_el.text or not link_el.text or not pubdate_el.text:
+            continue
+
+        try:
+            dt = parsedate_to_datetime(pubdate_el.text)
+        except (TypeError, ValueError):
+            continue
+
+        title = TITLE_LANG_SUFFIX_RE.sub("", title_el.text).strip()
+
+        items.append({
+            "title": title,
+            "url": link_el.text.strip(),
+            "date": format_italian_date(dt),
+            "_sort_key": dt,
+            "category": category,
+        })
+
+    items.sort(key=lambda it: it["_sort_key"], reverse=True)
+    for it in items:
+        del it["_sort_key"]
+    return items
 
 
 def extract_stats(html):
@@ -130,62 +133,6 @@ def extract_stats(html):
     return stats
 
 
-def extract_items(html, base_url):
-    soup = BeautifulSoup(html, "html.parser")
-    items = []
-    seen_urls = set()
-
-    for link in soup.find_all("a", href=True):
-        label = link.get_text(strip=True)
-        if not label.lower().startswith("leggi"):
-            continue
-
-        href = urljoin(base_url, link["href"])
-        if href in seen_urls:
-            continue
-
-        heading = link.find_previous(["h1", "h2", "h3", "h4"])
-        if not heading:
-            continue
-
-        title = heading.get_text(" ", strip=True)
-        if not title or len(title) < 8 or title in SECTION_LABELS:
-            # Titolo non trovato per il singolo elemento: quello intercettato è
-            # il titolo della sezione (es. "Manifesti"), non dell'articolo.
-            continue
-
-        category = guess_category(heading)
-        if category is None:
-            # Sezione non riconosciuta: meglio scartare che scrivere una
-            # categoria sbagliata.
-            continue
-        if category == "Manifesto":
-            # I manifesti sono documenti sempre validi, senza data di
-            # pubblicazione: non appartengono a un feed di "ultimi
-            # aggiornamenti" datato.
-            continue
-
-        parsed = find_kicker_date(heading) or parse_date(title)
-        if not parsed:
-            # Niente data trovata: il feed deve restare pulito e datato,
-            # quindi si scarta piuttosto che inventare/lasciare vuoto.
-            continue
-
-        items.append({
-            "title": title,
-            "url": href,
-            "date": parsed[1],
-            "_sort_key": parsed[0],
-            "category": category,
-        })
-        seen_urls.add(href)
-
-    items.sort(key=lambda it: it["_sort_key"], reverse=True)
-    for it in items:
-        del it["_sort_key"]
-    return items
-
-
 def load_existing():
     try:
         return json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
@@ -193,33 +140,47 @@ def load_existing():
         return {}
 
 
+def fetch(url):
+    return requests.get(url, timeout=TIMEOUT, headers={
+        "User-Agent": "n3r1-70-feed-bot/1.0 (+https://n3r1-70.online)"
+    })
+
+
 def main():
     existing = load_existing()
 
+    items = []
     try:
-        resp = requests.get(SOURCE_URL, timeout=TIMEOUT, headers={
-            "User-Agent": "n3r1-70-feed-bot/1.0 (+https://n3r1-70.online)"
-        })
-        resp.raise_for_status()
+        feed_resp = fetch(FEED_URL)
+        feed_resp.raise_for_status()
+        items = extract_items_from_feed(feed_resp.text)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Errore nel leggere {FEED_URL}: {exc}", file=sys.stderr)
+
+    stats = {}
+    try:
+        home_resp = fetch(SOURCE_URL)
+        home_resp.raise_for_status()
+        stats = extract_stats(home_resp.text)
     except Exception as exc:  # noqa: BLE001
         print(f"Errore nello scaricare {SOURCE_URL}: {exc}", file=sys.stderr)
-        return 0  # non fallire la action: si tiene il feed precedente
 
-    items = extract_items(resp.text, SOURCE_URL)
-    stats = extract_stats(resp.text)
+    if not items and not stats:
+        print("Né feed né homepage hanno prodotto dati: tengo il file precedente invariato.", file=sys.stderr)
+        return 0
 
-    # Contatori e articoli sono indipendenti: se uno dei due non si trova
-    # (pagina cambiata, rete lenta...) l'altro si aggiorna comunque.
+    # Contatori e articoli sono indipendenti: se una delle due fonti fallisce,
+    # l'altra si aggiorna comunque.
     merged_stats = dict(existing.get("stats", {}))
     merged_stats.update(stats)
 
     final_items = items[:MAX_ITEMS] if items else existing.get("items", [])
     if not items:
-        print("Nessun articolo estratto: tengo la lista precedente, aggiorno solo i contatori se trovati.", file=sys.stderr)
+        print("Nessun articolo estratto dal feed: tengo la lista precedente.", file=sys.stderr)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "source": SOURCE_URL,
+        "source": FEED_URL,
         "items": final_items,
         "stats": merged_stats,
     }
