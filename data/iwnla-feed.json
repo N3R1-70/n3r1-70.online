@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-09-12T21:13:22Z",
+  "generated_at": "2026-09-12T21:36:29Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Notizia sì, giudizio no",
+      "url": "https://iwillnotlookaway.org/s/it/op-notizia-si-giudizio-no.html",
+      "date": "12 settembre 2026",
+      "category": "Opinione"
+    },
     {
       "title": "Yemen: la guerra torna a intensificarsi e rilancia il reclutamento di minori, mentre l'ONU avverte del rischio carestia",
       "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
@@ -55,19 +61,13 @@
       "url": "https://iwillnotlookaway.org/s/it/op-parola-data.html",
       "date": "3 agosto 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "L'astensionismo come diagnosi, non come ricetta",
-      "url": "https://iwillnotlookaway.org/s/it/op-astensionismo-ragionato.html",
-      "date": "31 luglio 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 33,
     "attualita": 21,
-    "opinioni": 14,
+    "opinioni": 15,
     "fonti": 120,
     "lingue": 11
   }
