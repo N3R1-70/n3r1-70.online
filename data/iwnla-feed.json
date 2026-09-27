@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-26T10:29:43Z",
+  "generated_at": "2026-09-27T11:00:51Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "BRICS a Nuova Delhi: il diritto internazionale nel testo, e chi non viene nominato",
+      "url": "https://iwillnotlookaway.org/s/it/nd-brics-2026.html",
+      "date": "26 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "L'appello caduto nel vuoto: Trump, la CPI e il peso di ciò che non si riconosce",
+      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-onu-ritiro.html",
+      "date": "26 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Etiopia: la pace firmata in Sudafrica che nessuno ha difeso",
+      "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-tigray-pretoria.html",
+      "date": "26 settembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Notizia sì, giudizio no",
       "url": "https://iwillnotlookaway.org/s/it/op-notizia-si-giudizio-no.html",
@@ -43,32 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/op-guerra-ibrida-doppio-binario.html",
       "date": "2 settembre 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "Il varco riaperto nella riservatezza delle comunicazioni: un caso europeo, uno standard universale",
-      "url": "https://iwillnotlookaway.org/s/it/nd-varco-riservatezza-comunicazioni.html",
-      "date": "1 settembre 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "L'autorevolezza che si logora — quando si critica una democrazia senza guardare la propria",
-      "url": "https://iwillnotlookaway.org/s/it/op-credibilita-logora.html",
-      "date": "3 agosto 2026",
-      "category": "Opinione"
-    },
-    {
-      "title": "Quando la parola dell'uomo più potente del mondo non vale più nulla",
-      "url": "https://iwillnotlookaway.org/s/it/op-parola-data.html",
-      "date": "3 agosto 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 33,
-    "attualita": 21,
+    "analisi": 35,
+    "attualita": 22,
     "opinioni": 15,
-    "fonti": 120,
+    "fonti": 136,
     "lingue": 11
   }
 }
