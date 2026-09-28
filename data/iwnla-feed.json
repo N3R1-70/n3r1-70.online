@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-27T11:00:51Z",
+  "generated_at": "2026-09-28T12:20:20Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Prima gli interessi, poi l'ordine. E nessuna potenza nucleare fa da contrappeso",
+      "url": "https://iwillnotlookaway.org/s/it/nd-interessi-prima-ordine.html",
+      "date": "28 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Anatomia di un allarme: droni russi, una fonte anonima e due racconti senza prove",
+      "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-allarme-droni.html",
+      "date": "27 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Kallas e Stark Logistics: la bussola morale degli altri",
+      "url": "https://iwillnotlookaway.org/s/it/nd-kallas-stark.html",
+      "date": "27 settembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "BRICS a Nuova Delhi: il diritto internazionale nel testo, e chi non viene nominato",
       "url": "https://iwillnotlookaway.org/s/it/nd-brics-2026.html",
@@ -43,30 +61,12 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-niger-cpi.html",
       "date": "7 settembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Taiwan: il prezzo di un equilibrio che nessuno vuole rompere",
-      "url": "https://iwillnotlookaway.org/s/it/nd-taiwan-prezzo-equilibrio.html",
-      "date": "6 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Minerali per sicurezza: la pace del Congo ha un prezzo, e non lo fissa il Congo",
-      "url": "https://iwillnotlookaway.org/s/it/nd-minerali-per-sicurezza.html",
-      "date": "2 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Guerra ibrida, prove nascoste: l'escalation a doppio binario",
-      "url": "https://iwillnotlookaway.org/s/it/op-guerra-ibrida-doppio-binario.html",
-      "date": "2 settembre 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 35,
-    "attualita": 22,
+    "analisi": 37,
+    "attualita": 23,
     "opinioni": 15,
     "fonti": 136,
     "lingue": 11
