@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-09-28T12:20:20Z",
+  "generated_at": "2026-09-29T11:47:26Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Anatomia di un'intervista: il piano americano, Zelensky e una sconfitta presentata come inevitabile",
+      "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-sconfitta-inevitabile.html",
+      "date": "28 settembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Chi paga la guerra? Il debito dell'Ucraina, i beni russi congelati e una regola che l'Europa dovrà piegare",
+      "url": "https://iwillnotlookaway.org/s/it/nd-chi-paga-la-guerra.html",
+      "date": "28 settembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Prima gli interessi, poi l'ordine. E nessuna potenza nucleare fa da contrappeso",
       "url": "https://iwillnotlookaway.org/s/it/nd-interessi-prima-ordine.html",
@@ -49,23 +61,11 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
       "date": "10 settembre 2026",
       "category": "Attualità"
-    },
-    {
-      "title": "L’ONU dice che il rientro in Afghanistan non è sicuro. Il Pakistan continua a rimandarli — anche ora che i due Paesi si dichiarano guerra.",
-      "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-deportazioni.html",
-      "date": "9 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Il Niger lascia la Corte penale internazionale, mentre Stati Uniti e Italia proseguono la cooperazione militare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-niger-cpi.html",
-      "date": "7 settembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 37,
+    "analisi": 39,
     "attualita": 23,
     "opinioni": 15,
     "fonti": 136,
