@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-01T12:02:37Z",
+  "generated_at": "2026-10-02T11:34:01Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Haiti: l'ONU rinnova per sei mesi la forza contro le bande. Ma chi controlla chi spara?",
+      "url": "https://iwillnotlookaway.org/s/it/nd-haiti-chi-controlla-la-forza.html",
+      "date": "1 ottobre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Anatomia di un'intervista: il piano americano, Zelensky e una sconfitta presentata come inevitabile",
       "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-sconfitta-inevitabile.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/op-notizia-si-giudizio-no.html",
       "date": "12 settembre 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "Yemen: la guerra torna a intensificarsi e rilancia il reclutamento di minori, mentre l'ONU avverte del rischio carestia",
-      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-riaccesa.html",
-      "date": "10 settembre 2026",
-      "category": "Attualità"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 39,
-    "attualita": 23,
+    "attualita": 24,
     "opinioni": 15,
-    "fonti": 136,
+    "fonti": 322,
     "lingue": 11
   }
 }
