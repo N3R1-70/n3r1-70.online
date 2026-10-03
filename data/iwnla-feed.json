@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-02T11:34:01Z",
+  "generated_at": "2026-10-03T10:47:51Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "La condannata che non è morta. Chi usa ancora la pena di morte, e quali limiti del diritto viola",
+      "url": "https://iwillnotlookaway.org/s/it/nd-pena-di-morte-chi-uccide-ancora.html",
+      "date": "2 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Haiti: l'ONU rinnova per sei mesi la forza contro le bande. Ma chi controlla chi spara?",
       "url": "https://iwillnotlookaway.org/s/it/nd-haiti-chi-controlla-la-forza.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-tigray-pretoria.html",
       "date": "26 settembre 2026",
       "category": "Attualità"
-    },
-    {
-      "title": "Notizia sì, giudizio no",
-      "url": "https://iwillnotlookaway.org/s/it/op-notizia-si-giudizio-no.html",
-      "date": "12 settembre 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 39,
+    "analisi": 40,
     "attualita": 24,
     "opinioni": 15,
-    "fonti": 322,
+    "fonti": 336,
     "lingue": 11
   }
 }
