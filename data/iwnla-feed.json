@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-03T10:47:51Z",
+  "generated_at": "2026-10-04T11:30:14Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Nigeria: chi viene ucciso, chi lo racconta, chi dovrebbe processare",
+      "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-chi-viene-ucciso.html",
+      "date": "3 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "La condannata che non è morta. Chi usa ancora la pena di morte, e quali limiti del diritto viola",
       "url": "https://iwillnotlookaway.org/s/it/nd-pena-di-morte-chi-uccide-ancora.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-cpi-onu-ritiro.html",
       "date": "26 settembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Etiopia: la pace firmata in Sudafrica che nessuno ha difeso",
-      "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-tigray-pretoria.html",
-      "date": "26 settembre 2026",
-      "category": "Attualità"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 40,
+    "analisi": 41,
     "attualita": 24,
     "opinioni": 15,
-    "fonti": 336,
+    "fonti": 346,
     "lingue": 11
   }
 }
