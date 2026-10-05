@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-04T11:30:14Z",
+  "generated_at": "2026-10-05T12:59:55Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Ecuador, la guerra per decreto: chiamare guerra il crimine per cambiare le regole",
+      "url": "https://iwillnotlookaway.org/s/it/nd-ecuador-guerra-per-decreto.html",
+      "date": "4 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Sudan, la guerra a distanza: chi fornisce, chi pilota, chi dovrebbe fermarla",
+      "url": "https://iwillnotlookaway.org/s/it/nd-sudan-guerra-a-distanza.html",
+      "date": "4 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Nigeria: chi viene ucciso, chi lo racconta, chi dovrebbe processare",
       "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-chi-viene-ucciso.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-kallas-stark.html",
       "date": "27 settembre 2026",
       "category": "Attualità"
-    },
-    {
-      "title": "BRICS a Nuova Delhi: il diritto internazionale nel testo, e chi non viene nominato",
-      "url": "https://iwillnotlookaway.org/s/it/nd-brics-2026.html",
-      "date": "26 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "L'appello caduto nel vuoto: Trump, la CPI e il peso di ciò che non si riconosce",
-      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-onu-ritiro.html",
-      "date": "26 settembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 41,
+    "analisi": 43,
     "attualita": 24,
     "opinioni": 15,
-    "fonti": 346,
+    "fonti": 355,
     "lingue": 11
   }
 }
