@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-05T12:59:55Z",
+  "generated_at": "2026-10-06T12:24:35Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Etiopia, la guerra che nessuno racconta: guida per capire",
+      "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-guida-alla-guerra.html",
+      "date": "6 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Ecuador, la guerra per decreto: chiamare guerra il crimine per cambiare le regole",
       "url": "https://iwillnotlookaway.org/s/it/nd-ecuador-guerra-per-decreto.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-allarme-droni.html",
       "date": "27 settembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Kallas e Stark Logistics: la bussola morale degli altri",
-      "url": "https://iwillnotlookaway.org/s/it/nd-kallas-stark.html",
-      "date": "27 settembre 2026",
-      "category": "Attualità"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 43,
+    "analisi": 44,
     "attualita": 24,
     "opinioni": 15,
-    "fonti": 355,
+    "fonti": 365,
     "lingue": 11
   }
 }
