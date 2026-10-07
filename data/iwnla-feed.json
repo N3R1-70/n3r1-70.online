@@ -1,7 +1,37 @@
 {
-  "generated_at": "2026-10-06T12:24:35Z",
+  "generated_at": "2026-10-07T12:17:26Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Fuori dal recinto",
+      "url": "https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.html",
+      "date": "7 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Come si governa una macchina: gli strumenti sul tavolo per regolare l'intelligenza artificiale",
+      "url": "https://iwillnotlookaway.org/s/it/nd-ia-regole.html",
+      "date": "7 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Sei strade per l'intelligenza artificiale: gli scenari possibili e i segnali da guardare",
+      "url": "https://iwillnotlookaway.org/s/it/nd-ia-scenari.html",
+      "date": "7 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Minab, la scuola che nessuno ha controllato",
+      "url": "https://iwillnotlookaway.org/s/it/nd-minab.html",
+      "date": "7 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Chi frena?",
+      "url": "https://iwillnotlookaway.org/s/it/op-chi-frena.html",
+      "date": "7 ottobre 2026",
+      "category": "Opinione"
+    },
     {
       "title": "Etiopia, la guerra che nessuno racconta: guida per capire",
       "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-guida-alla-guerra.html",
@@ -31,44 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-pena-di-morte-chi-uccide-ancora.html",
       "date": "2 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Haiti: l'ONU rinnova per sei mesi la forza contro le bande. Ma chi controlla chi spara?",
-      "url": "https://iwillnotlookaway.org/s/it/nd-haiti-chi-controlla-la-forza.html",
-      "date": "1 ottobre 2026",
-      "category": "Attualità"
-    },
-    {
-      "title": "Anatomia di un'intervista: il piano americano, Zelensky e una sconfitta presentata come inevitabile",
-      "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-sconfitta-inevitabile.html",
-      "date": "28 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Chi paga la guerra? Il debito dell'Ucraina, i beni russi congelati e una regola che l'Europa dovrà piegare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-chi-paga-la-guerra.html",
-      "date": "28 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Prima gli interessi, poi l'ordine. E nessuna potenza nucleare fa da contrappeso",
-      "url": "https://iwillnotlookaway.org/s/it/nd-interessi-prima-ordine.html",
-      "date": "28 settembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Anatomia di un allarme: droni russi, una fonte anonima e due racconti senza prove",
-      "url": "https://iwillnotlookaway.org/s/it/nd-anatomia-allarme-droni.html",
-      "date": "27 settembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 44,
+    "analisi": 48,
     "attualita": 24,
-    "opinioni": 15,
-    "fonti": 365,
+    "opinioni": 16,
+    "fonti": 413,
     "lingue": 11
   }
 }
