@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-07T12:17:26Z",
+  "generated_at": "2026-10-08T12:27:16Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Tre anni dal 7 ottobre",
+      "url": "https://iwillnotlookaway.org/s/it/op-tre-anni-dal-7-ottobre.html",
+      "date": "7 ottobre 2026",
+      "category": "Opinione"
+    },
     {
       "title": "Fuori dal recinto",
       "url": "https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.html",
@@ -55,19 +61,13 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-chi-viene-ucciso.html",
       "date": "3 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "La condannata che non è morta. Chi usa ancora la pena di morte, e quali limiti del diritto viola",
-      "url": "https://iwillnotlookaway.org/s/it/nd-pena-di-morte-chi-uccide-ancora.html",
-      "date": "2 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 48,
     "attualita": 24,
-    "opinioni": 16,
+    "opinioni": 17,
     "fonti": 413,
     "lingue": 11
   }
