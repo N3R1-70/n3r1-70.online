@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-10T11:34:15Z",
+  "generated_at": "2026-10-11T11:47:45Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Il faro",
+      "url": "https://iwillnotlookaway.org/s/it/op-il-faro.html",
+      "date": "10 ottobre 2026",
+      "category": "Opinione"
+    },
+    {
+      "title": "Sei mesi alla Corte: Washington sanziona la CPI intera e apre una trattativa sulla sua indipendenza",
+      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-sanzioni-sei-mesi.html",
+      "date": "10 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "L'Europa ha smesso di dipendere da Mosca. Da chi dipende adesso?",
+      "url": "https://iwillnotlookaway.org/s/it/nd-energia-da-chi-dipende-europa.html",
+      "date": "10 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Tre anni dal 7 ottobre",
       "url": "https://iwillnotlookaway.org/s/it/op-tre-anni-dal-7-ottobre.html",
@@ -43,32 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-guida-alla-guerra.html",
       "date": "6 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Ecuador, la guerra per decreto: chiamare guerra il crimine per cambiare le regole",
-      "url": "https://iwillnotlookaway.org/s/it/nd-ecuador-guerra-per-decreto.html",
-      "date": "4 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Sudan, la guerra a distanza: chi fornisce, chi pilota, chi dovrebbe fermarla",
-      "url": "https://iwillnotlookaway.org/s/it/nd-sudan-guerra-a-distanza.html",
-      "date": "4 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Nigeria: chi viene ucciso, chi lo racconta, chi dovrebbe processare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-chi-viene-ucciso.html",
-      "date": "3 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 48,
+    "analisi": 50,
     "attualita": 24,
-    "opinioni": 17,
-    "fonti": 413,
+    "opinioni": 18,
+    "fonti": 441,
     "lingue": 11
   }
 }
