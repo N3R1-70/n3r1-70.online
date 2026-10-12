@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-11T11:47:45Z",
+  "generated_at": "2026-10-12T13:51:51Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Aeroporto contro aeroporto: come è tornata la guerra tra Houthi e Arabia Saudita, e che cosa vogliono le parti",
+      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-aeroporto-contro-aeroporto.html",
+      "date": "11 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Il faro",
       "url": "https://iwillnotlookaway.org/s/it/op-il-faro.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/op-chi-frena.html",
       "date": "7 ottobre 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "Etiopia, la guerra che nessuno racconta: guida per capire",
-      "url": "https://iwillnotlookaway.org/s/it/nd-etiopia-guida-alla-guerra.html",
-      "date": "6 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 50,
+    "analisi": 51,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 441,
+    "fonti": 451,
     "lingue": 11
   }
 }
