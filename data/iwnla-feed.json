@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-13T13:09:37Z",
+  "generated_at": "2026-10-14T10:50:25Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Sud Sudan: si vota il 22 dicembre, ma l'accordo di pace è già finito",
+      "url": "https://iwillnotlookaway.org/s/it/nd-sud-sudan-voto-senza-pace.html",
+      "date": "13 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Aeroporto contro aeroporto: come è tornata la guerra tra Houthi e Arabia Saudita, e che cosa vogliono le parti",
       "url": "https://iwillnotlookaway.org/s/it/nd-yemen-aeroporto-contro-aeroporto.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-minab.html",
       "date": "7 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Chi frena?",
-      "url": "https://iwillnotlookaway.org/s/it/op-chi-frena.html",
-      "date": "7 ottobre 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 51,
+    "analisi": 52,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 451,
+    "fonti": 459,
     "lingue": 11
   }
 }
