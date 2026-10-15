@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-14T10:50:25Z",
+  "generated_at": "2026-10-15T10:32:52Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Le guerre del mondo sono «musulmane»? Che cosa dicono i dati, e quali sono le cause",
+      "url": "https://iwillnotlookaway.org/s/it/nd-religione-e-guerre.html",
+      "date": "14 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Libia: un accordo per votare entro due anni, mentre le milizie si sparano attorno alla raffineria",
+      "url": "https://iwillnotlookaway.org/s/it/nd-libia-accordo-tripoli.html",
+      "date": "14 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Sud Sudan: si vota il 22 dicembre, ma l'accordo di pace è già finito",
       "url": "https://iwillnotlookaway.org/s/it/nd-sud-sudan-voto-senza-pace.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-ia-regole.html",
       "date": "7 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Sei strade per l'intelligenza artificiale: gli scenari possibili e i segnali da guardare",
-      "url": "https://iwillnotlookaway.org/s/it/nd-ia-scenari.html",
-      "date": "7 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Minab, la scuola che nessuno ha controllato",
-      "url": "https://iwillnotlookaway.org/s/it/nd-minab.html",
-      "date": "7 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 52,
+    "analisi": 54,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 459,
+    "fonti": 467,
     "lingue": 11
   }
 }
