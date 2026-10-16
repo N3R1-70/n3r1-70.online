@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-15T10:32:52Z",
+  "generated_at": "2026-10-16T10:19:58Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Il mercato euro-russo che preoccupava Washington: che cosa dicono i numeri",
+      "url": "https://iwillnotlookaway.org/s/it/nd-mercato-euro-russo.html",
+      "date": "15 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Dal 1990 al 2022: come si è arrivati alla guerra in Ucraina",
+      "url": "https://iwillnotlookaway.org/s/it/nd-dal-1990-al-2022.html",
+      "date": "15 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Le guerre del mondo sono «musulmane»? Che cosa dicono i dati, e quali sono le cause",
       "url": "https://iwillnotlookaway.org/s/it/nd-religione-e-guerre.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/op-tre-anni-dal-7-ottobre.html",
       "date": "7 ottobre 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "Fuori dal recinto",
-      "url": "https://iwillnotlookaway.org/s/it/nd-ia-fuori-dal-recinto.html",
-      "date": "7 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Come si governa una macchina: gli strumenti sul tavolo per regolare l'intelligenza artificiale",
-      "url": "https://iwillnotlookaway.org/s/it/nd-ia-regole.html",
-      "date": "7 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 54,
+    "analisi": 56,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 467,
+    "fonti": 493,
     "lingue": 11
   }
 }
