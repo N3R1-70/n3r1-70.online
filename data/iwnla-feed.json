@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-16T10:19:58Z",
+  "generated_at": "2026-10-17T09:52:48Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "L'Europa ha scelto l'auto elettrica. Chi la costruisce?",
+      "url": "https://iwillnotlookaway.org/s/it/nd-auto-elettrica-europa.html",
+      "date": "16 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Il mercato euro-russo che preoccupava Washington: che cosa dicono i numeri",
       "url": "https://iwillnotlookaway.org/s/it/nd-mercato-euro-russo.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-energia-da-chi-dipende-europa.html",
       "date": "10 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Tre anni dal 7 ottobre",
-      "url": "https://iwillnotlookaway.org/s/it/op-tre-anni-dal-7-ottobre.html",
-      "date": "7 ottobre 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 56,
+    "analisi": 57,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 493,
+    "fonti": 504,
     "lingue": 11
   }
 }
