@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-10-17T09:52:48Z",
+  "generated_at": "2026-10-18T10:05:20Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Il Nord Stream era un obiettivo militare?",
+      "url": "https://iwillnotlookaway.org/s/it/nd-nord-stream-obiettivo-militare.html",
+      "date": "18 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Chi comanda davvero sulle scelte europee",
+      "url": "https://iwillnotlookaway.org/s/it/nd-chi-comanda-scelte-europee.html",
+      "date": "18 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Perché l'Ucraina e non il Sudan",
+      "url": "https://iwillnotlookaway.org/s/it/nd-perche-ucraina-non-sudan.html",
+      "date": "17 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Dopo il 2022: che cosa ha scelto l'Europa e quanto le è costato",
+      "url": "https://iwillnotlookaway.org/s/it/nd-dopo-il-2022.html",
+      "date": "17 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "L'Europa ha scelto l'auto elettrica. Chi la costruisce?",
       "url": "https://iwillnotlookaway.org/s/it/nd-auto-elettrica-europa.html",
@@ -37,38 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-sud-sudan-voto-senza-pace.html",
       "date": "13 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Aeroporto contro aeroporto: come è tornata la guerra tra Houthi e Arabia Saudita, e che cosa vogliono le parti",
-      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-aeroporto-contro-aeroporto.html",
-      "date": "11 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Il faro",
-      "url": "https://iwillnotlookaway.org/s/it/op-il-faro.html",
-      "date": "10 ottobre 2026",
-      "category": "Opinione"
-    },
-    {
-      "title": "Sei mesi alla Corte: Washington sanziona la CPI intera e apre una trattativa sulla sua indipendenza",
-      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-sanzioni-sei-mesi.html",
-      "date": "10 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "L'Europa ha smesso di dipendere da Mosca. Da chi dipende adesso?",
-      "url": "https://iwillnotlookaway.org/s/it/nd-energia-da-chi-dipende-europa.html",
-      "date": "10 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 57,
+    "analisi": 61,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 504,
+    "fonti": 539,
     "lingue": 11
   }
 }
