@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-18T10:05:20Z",
+  "generated_at": "2026-10-19T11:32:23Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Immigrazione: le porte che l'Europa chiude e quelle che apre",
+      "url": "https://iwillnotlookaway.org/s/it/nd-immigrazione-scelte-europee.html",
+      "date": "18 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Il Nord Stream era un obiettivo militare?",
       "url": "https://iwillnotlookaway.org/s/it/nd-nord-stream-obiettivo-militare.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-libia-accordo-tripoli.html",
       "date": "14 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Sud Sudan: si vota il 22 dicembre, ma l'accordo di pace è già finito",
-      "url": "https://iwillnotlookaway.org/s/it/nd-sud-sudan-voto-senza-pace.html",
-      "date": "13 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 61,
+    "analisi": 63,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 539,
+    "fonti": 551,
     "lingue": 11
   }
 }
