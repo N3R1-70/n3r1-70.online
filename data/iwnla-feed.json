@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-19T11:32:23Z",
+  "generated_at": "2026-10-20T10:37:48Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Camerun, un anno dopo il voto: i manifestanti davanti al tribunale militare, chi ha sparato davanti a nessuno",
+      "url": "https://iwillnotlookaway.org/s/it/nd-camerun-un-anno-dopo.html",
+      "date": "19 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Rohingya, la sentenza che non arriva: che cosa deve decidere la Corte, e che cosa resta a chi aspetta",
+      "url": "https://iwillnotlookaway.org/s/it/nd-rohingya-attesa-sentenza.html",
+      "date": "19 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Immigrazione: le porte che l'Europa chiude e quelle che apre",
       "url": "https://iwillnotlookaway.org/s/it/nd-immigrazione-scelte-europee.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-dal-1990-al-2022.html",
       "date": "15 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Le guerre del mondo sono «musulmane»? Che cosa dicono i dati, e quali sono le cause",
-      "url": "https://iwillnotlookaway.org/s/it/nd-religione-e-guerre.html",
-      "date": "14 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Libia: un accordo per votare entro due anni, mentre le milizie si sparano attorno alla raffineria",
-      "url": "https://iwillnotlookaway.org/s/it/nd-libia-accordo-tripoli.html",
-      "date": "14 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 63,
+    "analisi": 65,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 551,
+    "fonti": 562,
     "lingue": 11
   }
 }
