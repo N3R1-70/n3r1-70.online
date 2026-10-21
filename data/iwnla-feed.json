@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-20T10:37:48Z",
+  "generated_at": "2026-10-21T10:49:06Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Cuba al buio: l'embargo, il petrolio negato e il voto che l'ONU ripete da trent'anni",
+      "url": "https://iwillnotlookaway.org/s/it/nd-cuba-embargo-petrolio.html",
+      "date": "20 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Camerun, un anno dopo il voto: i manifestanti davanti al tribunale militare, chi ha sparato davanti a nessuno",
       "url": "https://iwillnotlookaway.org/s/it/nd-camerun-un-anno-dopo.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-mercato-euro-russo.html",
       "date": "15 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Dal 1990 al 2022: come si è arrivati alla guerra in Ucraina",
-      "url": "https://iwillnotlookaway.org/s/it/nd-dal-1990-al-2022.html",
-      "date": "15 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 65,
+    "analisi": 66,
     "attualita": 24,
     "opinioni": 18,
-    "fonti": 562,
+    "fonti": 566,
     "lingue": 11
   }
 }
