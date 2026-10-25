@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-24T09:58:47Z",
+  "generated_at": "2026-10-25T10:22:29Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Il muro di terra",
+      "url": "https://iwillnotlookaway.org/s/it/op-el-fasher-un-anno.html",
+      "date": "26 ottobre 2026",
+      "category": "Opinione"
+    },
     {
       "title": "Cuba al buio: l'embargo, il petrolio negato e il voto che l'ONU ripete da trent'anni",
       "url": "https://iwillnotlookaway.org/s/it/nd-cuba-embargo-petrolio.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-auto-elettrica-europa.html",
       "date": "16 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Il mercato euro-russo che preoccupava Washington: che cosa dicono i numeri",
-      "url": "https://iwillnotlookaway.org/s/it/nd-mercato-euro-russo.html",
-      "date": "15 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 66,
     "attualita": 24,
-    "opinioni": 18,
-    "fonti": 638,
+    "opinioni": 19,
+    "fonti": 640,
     "lingue": 11
   }
 }
