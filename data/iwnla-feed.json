@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:22:29Z",
+  "generated_at": "2026-10-26T11:51:07Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
     {
@@ -7,6 +7,18 @@
       "url": "https://iwillnotlookaway.org/s/it/op-el-fasher-un-anno.html",
       "date": "26 ottobre 2026",
       "category": "Opinione"
+    },
+    {
+      "title": "In Libia sono tornate le fucilazioni: a Bengasi decidono i tribunali militari di Haftar",
+      "url": "https://iwillnotlookaway.org/s/it/nd-libia-esecuzioni-bengasi.html",
+      "date": "25 ottobre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Decine di morti in una cella: a Minna, in Nigeria, l'accusato è lo Stato",
+      "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-cella-di-minna.html",
+      "date": "25 ottobre 2026",
+      "category": "Analisi"
     },
     {
       "title": "Cuba al buio: l'embargo, il petrolio negato e il voto che l'ONU ripete da trent'anni",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-perche-ucraina-non-sudan.html",
       "date": "17 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Dopo il 2022: che cosa ha scelto l'Europa e quanto le è costato",
-      "url": "https://iwillnotlookaway.org/s/it/nd-dopo-il-2022.html",
-      "date": "17 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "L'Europa ha scelto l'auto elettrica. Chi la costruisce?",
-      "url": "https://iwillnotlookaway.org/s/it/nd-auto-elettrica-europa.html",
-      "date": "16 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 66,
+    "analisi": 68,
     "attualita": 24,
     "opinioni": 19,
-    "fonti": 640,
+    "fonti": 661,
     "lingue": 11
   }
 }
