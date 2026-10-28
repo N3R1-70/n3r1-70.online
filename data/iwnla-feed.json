@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-27T11:15:17Z",
+  "generated_at": "2026-10-28T11:49:27Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Pakistan contro Afghanistan: un anno di raid «per legittima difesa» e una strage in un centro di cura a Kabul",
+      "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-afghanistan-legittima-difesa.html",
+      "date": "27 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Il muro di terra",
       "url": "https://iwillnotlookaway.org/s/it/op-el-fasher-un-anno.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-chi-comanda-scelte-europee.html",
       "date": "18 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Perché l'Ucraina e non il Sudan",
-      "url": "https://iwillnotlookaway.org/s/it/nd-perche-ucraina-non-sudan.html",
-      "date": "17 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 68,
+    "analisi": 69,
     "attualita": 24,
     "opinioni": 19,
-    "fonti": 661,
+    "fonti": 671,
     "lingue": 11
   }
 }
