@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-10-29T11:57:07Z",
+  "generated_at": "2026-10-30T11:51:18Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Mozambico, Cabo Delgado: il gas è ripartito, la guerra no",
+      "url": "https://iwillnotlookaway.org/s/it/nd-mozambico-cabo-delgado.html",
+      "date": "29 ottobre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Pakistan contro Afghanistan: un anno di raid «per legittima difesa» e una strage in un centro di cura a Kabul",
       "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-afghanistan-legittima-difesa.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-nord-stream-obiettivo-militare.html",
       "date": "18 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Chi comanda davvero sulle scelte europee",
-      "url": "https://iwillnotlookaway.org/s/it/nd-chi-comanda-scelte-europee.html",
-      "date": "18 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 69,
+    "analisi": 70,
     "attualita": 24,
     "opinioni": 19,
-    "fonti": 671,
+    "fonti": 688,
     "lingue": 11
   }
 }
