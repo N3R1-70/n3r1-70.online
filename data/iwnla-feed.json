@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-10-31T11:24:39Z",
+  "generated_at": "2026-11-01T12:17:59Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Haiti, il voto slitta al 2027. Intanto arrivano duemila soldati di Bukele",
+      "url": "https://iwillnotlookaway.org/s/it/nd-haiti-voto-rinviato.html",
+      "date": "1 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "La porta",
+      "url": "https://iwillnotlookaway.org/s/it/op-la-porta.html",
+      "date": "31 ottobre 2026",
+      "category": "Opinione"
+    },
     {
       "title": "Mozambico, Cabo Delgado: il gas è ripartito, la guerra no",
       "url": "https://iwillnotlookaway.org/s/it/nd-mozambico-cabo-delgado.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-rohingya-attesa-sentenza.html",
       "date": "19 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Immigrazione: le porte che l'Europa chiude e quelle che apre",
-      "url": "https://iwillnotlookaway.org/s/it/nd-immigrazione-scelte-europee.html",
-      "date": "18 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Il Nord Stream era un obiettivo militare?",
-      "url": "https://iwillnotlookaway.org/s/it/nd-nord-stream-obiettivo-militare.html",
-      "date": "18 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 70,
+    "analisi": 71,
     "attualita": 24,
-    "opinioni": 19,
-    "fonti": 688,
+    "opinioni": 20,
+    "fonti": 707,
     "lingue": 11
   }
 }
