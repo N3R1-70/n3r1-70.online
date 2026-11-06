@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-05T13:42:03Z",
+  "generated_at": "2026-11-06T13:26:11Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Sudan ed Etiopia, la guerra dei consolati: i droni che partono da Assosa e il rischio di una guerra tra Stati",
+      "url": "https://iwillnotlookaway.org/s/it/nd-sudan-etiopia-consolati.html",
+      "date": "5 novembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Yemen, la guerra tornata intera: quattromila morti in un mese e il numero che nessuno sa dire",
       "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-intera.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-cuba-embargo-petrolio.html",
       "date": "20 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Camerun, un anno dopo il voto: i manifestanti davanti al tribunale militare, chi ha sparato davanti a nessuno",
-      "url": "https://iwillnotlookaway.org/s/it/nd-camerun-un-anno-dopo.html",
-      "date": "19 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
     "analisi": 72,
-    "attualita": 24,
+    "attualita": 25,
     "opinioni": 20,
-    "fonti": 780,
+    "fonti": 788,
     "lingue": 11
   }
 }
