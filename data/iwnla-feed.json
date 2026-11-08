@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-07T12:05:12Z",
+  "generated_at": "2026-11-08T12:25:59Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Le chiavi",
+      "url": "https://iwillnotlookaway.org/s/it/op-le-chiavi.html",
+      "date": "7 novembre 2026",
+      "category": "Opinione"
+    },
+    {
+      "title": "Bitcoin allo specchio: come funziona, a confronto con l'oro e con la moneta",
+      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin.html",
+      "date": "7 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Bitcoin, chi congela e chi scappa: le riserve russe, le sanzioni e il pedaggio di Hormuz",
+      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-2.html",
+      "date": "7 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Bitcoin, chi controlla e chi tassa: le nuove regole in Europa e nel mondo",
+      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-3.html",
+      "date": "7 novembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Sudan ed Etiopia, la guerra dei consolati: i droni che partono da Assosa e il rischio di una guerra tra Stati",
       "url": "https://iwillnotlookaway.org/s/it/nd-sudan-etiopia-consolati.html",
@@ -37,38 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-afghanistan-legittima-difesa.html",
       "date": "27 ottobre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Il muro di terra",
-      "url": "https://iwillnotlookaway.org/s/it/op-el-fasher-un-anno.html",
-      "date": "26 ottobre 2026",
-      "category": "Opinione"
-    },
-    {
-      "title": "In Libia sono tornate le fucilazioni: a Bengasi decidono i tribunali militari di Haftar",
-      "url": "https://iwillnotlookaway.org/s/it/nd-libia-esecuzioni-bengasi.html",
-      "date": "25 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Decine di morti in una cella: a Minna, in Nigeria, l'accusato è lo Stato",
-      "url": "https://iwillnotlookaway.org/s/it/nd-nigeria-cella-di-minna.html",
-      "date": "25 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Cuba al buio: l'embargo, il petrolio negato e il voto che l'ONU ripete da trent'anni",
-      "url": "https://iwillnotlookaway.org/s/it/nd-cuba-embargo-petrolio.html",
-      "date": "20 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 8,
-    "analisi": 72,
+    "analisi": 75,
     "attualita": 25,
-    "opinioni": 20,
-    "fonti": 788,
+    "opinioni": 21,
+    "fonti": 833,
     "lingue": 11
   }
 }
