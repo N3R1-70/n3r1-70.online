@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-11-08T12:25:59Z",
+  "generated_at": "2026-11-09T14:40:34Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Il conto del riarmo: chi paga, e con quali regole",
+      "url": "https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.html",
+      "date": "8 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Fin dove arriva la legittima difesa: gli attacchi ucraini in Russia, uno per uno",
+      "url": "https://iwillnotlookaway.org/s/it/nd-legittima-difesa.html",
+      "date": "8 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Il riarmo si serve freddo",
+      "url": "https://iwillnotlookaway.org/s/it/op-riarmo-si-serve-freddo.html",
+      "date": "8 novembre 2026",
+      "category": "Opinione"
+    },
+    {
+      "title": "Freezer a 50 gradi: chi ha attaccato i supermercati d'Europa, e che cosa sappiamo davvero",
+      "url": "https://iwillnotlookaway.org/s/it/nd-freezer-50-gradi.html",
+      "date": "8 novembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Le chiavi",
       "url": "https://iwillnotlookaway.org/s/it/op-le-chiavi.html",
@@ -37,38 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-intera.html",
       "date": "4 novembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Haiti, il voto slitta al 2027. Intanto arrivano duemila soldati di Bukele",
-      "url": "https://iwillnotlookaway.org/s/it/nd-haiti-voto-rinviato.html",
-      "date": "1 novembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "La porta",
-      "url": "https://iwillnotlookaway.org/s/it/op-la-porta.html",
-      "date": "31 ottobre 2026",
-      "category": "Opinione"
-    },
-    {
-      "title": "Mozambico, Cabo Delgado: il gas è ripartito, la guerra no",
-      "url": "https://iwillnotlookaway.org/s/it/nd-mozambico-cabo-delgado.html",
-      "date": "29 ottobre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Pakistan contro Afghanistan: un anno di raid «per legittima difesa» e una strage in un centro di cura a Kabul",
-      "url": "https://iwillnotlookaway.org/s/it/nd-pakistan-afghanistan-legittima-difesa.html",
-      "date": "27 ottobre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
-    "manifesti": 8,
-    "analisi": 75,
-    "attualita": 25,
-    "opinioni": 21,
-    "fonti": 833,
+    "manifesti": 9,
+    "analisi": 77,
+    "attualita": 26,
+    "opinioni": 22,
+    "fonti": 865,
     "lingue": 11
   }
 }
