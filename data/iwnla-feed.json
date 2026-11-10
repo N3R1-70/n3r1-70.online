@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-09T14:40:34Z",
+  "generated_at": "2026-11-10T13:56:38Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Israele dopo il voto: la maggioranza che non sa governare, il voto arabo sotto accusa, le elezioni palestinesi rinviate",
+      "url": "https://iwillnotlookaway.org/s/it/nd-elezioni-israele-2026.html",
+      "date": "10 novembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Il conto del riarmo: chi paga, e con quali regole",
       "url": "https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-sudan-etiopia-consolati.html",
       "date": "5 novembre 2026",
       "category": "Attualità"
-    },
-    {
-      "title": "Yemen, la guerra tornata intera: quattromila morti in un mese e il numero che nessuno sa dire",
-      "url": "https://iwillnotlookaway.org/s/it/nd-yemen-guerra-intera.html",
-      "date": "4 novembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 9,
-    "analisi": 77,
+    "analisi": 78,
     "attualita": 26,
     "opinioni": 22,
-    "fonti": 865,
+    "fonti": 877,
     "lingue": 11
   }
 }
