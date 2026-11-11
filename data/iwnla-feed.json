@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-10T13:56:38Z",
+  "generated_at": "2026-11-11T13:11:20Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Le regole che hanno scritto: come gli Stati Uniti costruirono l'ordine del 1945, e le prime eccezioni",
+      "url": "https://iwillnotlookaway.org/s/it/nd-regole-che-hanno-scritto.html",
+      "date": "10 novembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Israele dopo il voto: la maggioranza che non sa governare, il voto arabo sotto accusa, le elezioni palestinesi rinviate",
       "url": "https://iwillnotlookaway.org/s/it/nd-elezioni-israele-2026.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-3.html",
       "date": "7 novembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Sudan ed Etiopia, la guerra dei consolati: i droni che partono da Assosa e il rischio di una guerra tra Stati",
-      "url": "https://iwillnotlookaway.org/s/it/nd-sudan-etiopia-consolati.html",
-      "date": "5 novembre 2026",
-      "category": "Attualità"
     }
   ],
   "stats": {
     "manifesti": 9,
-    "analisi": 78,
+    "analisi": 79,
     "attualita": 26,
     "opinioni": 22,
-    "fonti": 877,
+    "fonti": 881,
     "lingue": 11
   }
 }
