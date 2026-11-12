@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-11T13:11:20Z",
+  "generated_at": "2026-11-12T14:14:22Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Armi autonome, la settimana di Ginevra: gli Stati decidono se le macchine che scelgono chi colpire avranno regole",
+      "url": "https://iwillnotlookaway.org/s/it/nd-armi-autonome-ginevra.html",
+      "date": "12 novembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Le regole che hanno scritto: come gli Stati Uniti costruirono l'ordine del 1945, e le prime eccezioni",
       "url": "https://iwillnotlookaway.org/s/it/nd-regole-che-hanno-scritto.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-2.html",
       "date": "7 novembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Bitcoin, chi controlla e chi tassa: le nuove regole in Europa e nel mondo",
-      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-3.html",
-      "date": "7 novembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 9,
     "analisi": 79,
-    "attualita": 26,
+    "attualita": 27,
     "opinioni": 22,
-    "fonti": 881,
+    "fonti": 887,
     "lingue": 11
   }
 }
