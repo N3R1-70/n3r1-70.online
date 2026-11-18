@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-11-17T15:08:57Z",
+  "generated_at": "2026-11-18T14:46:47Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Chi possiede le macchine? Le soluzioni, e chi resta fuori",
+      "url": "https://iwillnotlookaway.org/s/it/nd-chi-possiede-le-macchine-2.html",
+      "date": "17 novembre 2026",
+      "category": "Analisi"
+    },
+    {
+      "title": "Chi possiede le macchine? I problemi: capitale, lavoro, energia, acqua",
+      "url": "https://iwillnotlookaway.org/s/it/nd-chi-possiede-le-macchine.html",
+      "date": "17 novembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Armi autonome, la settimana di Ginevra: gli Stati decidono se le macchine che scelgono chi colpire avranno regole",
       "url": "https://iwillnotlookaway.org/s/it/nd-armi-autonome-ginevra.html",
@@ -49,26 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/op-le-chiavi.html",
       "date": "7 novembre 2026",
       "category": "Opinione"
-    },
-    {
-      "title": "Bitcoin allo specchio: come funziona, a confronto con l'oro e con la moneta",
-      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin.html",
-      "date": "7 novembre 2026",
-      "category": "Analisi"
-    },
-    {
-      "title": "Bitcoin, chi congela e chi scappa: le riserve russe, le sanzioni e il pedaggio di Hormuz",
-      "url": "https://iwillnotlookaway.org/s/it/nd-bitcoin-2.html",
-      "date": "7 novembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 9,
-    "analisi": 79,
+    "analisi": 81,
     "attualita": 27,
     "opinioni": 22,
-    "fonti": 887,
+    "fonti": 945,
     "lingue": 11
   }
 }
