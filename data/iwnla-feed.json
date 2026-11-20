@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-19T14:53:40Z",
+  "generated_at": "2026-11-20T14:35:08Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Tre firme contro la Corte: a Shenzhen Washington, Mosca e Pechino chiedono l'immunità per chi governa",
+      "url": "https://iwillnotlookaway.org/s/it/nd-cpi-shenzhen.html",
+      "date": "19 novembre 2026",
+      "category": "Attualità"
+    },
     {
       "title": "Due pesi, due misure, una legge",
       "url": "https://iwillnotlookaway.org/s/it/op-due-pesi.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-legittima-difesa.html",
       "date": "8 novembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Il riarmo si serve freddo",
-      "url": "https://iwillnotlookaway.org/s/it/op-riarmo-si-serve-freddo.html",
-      "date": "8 novembre 2026",
-      "category": "Opinione"
     }
   ],
   "stats": {
     "manifesti": 9,
     "analisi": 82,
-    "attualita": 27,
+    "attualita": 28,
     "opinioni": 23,
-    "fonti": 962,
+    "fonti": 967,
     "lingue": 11
   }
 }
