@@ -1,7 +1,13 @@
 {
-  "generated_at": "2026-11-22T13:45:52Z",
+  "generated_at": "2026-11-23T16:49:35Z",
   "source": "https://iwillnotlookaway.org/feed.xml",
   "items": [
+    {
+      "title": "Gli Awá di Arariboia e il dovere di proteggere chi non vuole essere trovato",
+      "url": "https://iwillnotlookaway.org/s/it/nd-awa-arariboia.html",
+      "date": "22 novembre 2026",
+      "category": "Analisi"
+    },
     {
       "title": "Nove arsenali, un trattato e un silenzio: la Corea del Nord dopo Shenzhen",
       "url": "https://iwillnotlookaway.org/s/it/nd-nove-arsenali.html",
@@ -55,20 +61,14 @@
       "url": "https://iwillnotlookaway.org/s/it/nd-elezioni-israele-2026.html",
       "date": "10 novembre 2026",
       "category": "Analisi"
-    },
-    {
-      "title": "Il conto del riarmo: chi paga, e con quali regole",
-      "url": "https://iwillnotlookaway.org/s/it/nd-riarmo-chi-paga.html",
-      "date": "8 novembre 2026",
-      "category": "Analisi"
     }
   ],
   "stats": {
     "manifesti": 9,
-    "analisi": 83,
+    "analisi": 84,
     "attualita": 28,
     "opinioni": 23,
-    "fonti": 1000,
+    "fonti": 1015,
     "lingue": 11
   }
 }
