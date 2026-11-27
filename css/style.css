@@ -644,3 +644,27 @@ a.stat:hover .stat-l{ color: var(--accent); }
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
+
+/* ----------------------------- stato "in pubblicazione" ----------------------------- */
+/* Per togliere lo stato: rimuovere .badge-pending dalle righe e .pending-note dalla scheda. */
+
+.badge-pending{
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+  background: var(--accent-soft);
+  padding: 0.15rem 0.45rem;
+  margin-left: 0.6rem;
+  vertical-align: middle;
+}
+
+.pending-note{
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.9rem;
+}

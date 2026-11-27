@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://n3r1-70.online/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -34,6 +34,12 @@
     <loc>https://n3r1-70.online/libro-questa-e-la-mia-terra.html</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://n3r1-70.online/libro-voi-non-sparite.html</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
